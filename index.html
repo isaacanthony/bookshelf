@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bookshelf</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+  <style>
+    .book-cover { height: 100%; width: 100%; }
+  </style>
+</head>
+<body>
+
+<!-- html -->
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="row mt-4 mb-4">
+        <div class="col-12">
+          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </div>
+      </div>
+
+      <div class="row text-center books"></div>
+    </div>
+  </div>
+</div>
+
+<!-- js -->
+<script>
+"use strict";
+var books = [];
+
+
+const display = (arr) => {
+  let html = [];
+
+  arr.forEach((book) => {
+    if (book.cover) {
+      html.push(`
+        <div class="col">
+          <img class="book-cover" src="${book.cover.medium}">
+        </div>
+      `);
+    } else {
+      console.log('Not found');
+    }
+
+    console.log(book);
+  });
+
+  document.querySelector('.books').innerHTML = html.join('');
+};
+
+
+const process = (hsh) => {
+  books = Object.values(hsh);
+  display(books);
+};
+
+
+const fetch = (isbns) => {
+  let keys = isbns.map((isbn) => `ISBN:${isbn}`).join(',');
+  let req = new XMLHttpRequest();
+
+  req.open(
+    'GET',
+    `http://openlibrary.org/api/books?bibkeys=${keys}&callback=process&jscmd=data`,
+  );
+
+  req.onreadystatechange = function() {
+    if (this.readyState === 4 && this.status === 200) {
+      eval(req.responseText);
+    }
+  };
+
+  req.send();
+};
+
+
+fetch([
+  '9780812988529',
+  '9780099842606',
+  '9780140023084',
+  '9780385333474',
+  '9780446671002',
+  '9780460872706',
+  '9780791010082',
+]);
+</script>
+
+</body>
