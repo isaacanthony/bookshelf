@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bookshelf</title>
 
   <!-- css -->
@@ -15,10 +16,10 @@
 <!-- html -->
 <div class="container">
   <div class="row">
-    <div class="col-12">
+    <div class="col-8 offset-2">
       <div class="row mt-4 mb-4">
         <div class="col-12">
-          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+          <input class="form-control search" type="text" placeholder="Search" onkeydown="search(this)">
         </div>
       </div>
 
@@ -39,7 +40,7 @@ const display = (arr) => {
   arr.forEach((book) => {
     if (book.cover) {
       html.push(`
-        <div class="col">
+        <div class="col-3 mb-3">
           <img class="book-cover" src="${book.cover.medium}">
         </div>
       `);
@@ -51,6 +52,27 @@ const display = (arr) => {
   });
 
   document.querySelector('.books').innerHTML = html.join('');
+};
+
+
+const search = (el) => {
+  if (event.key === 'Enter') {
+    let query = el.value;
+
+    if (!query) {
+      display(books);
+    } else {
+      query = query.toLowerCase();
+
+      display(books.filter((book) => {
+        if (book.title.toLowerCase().includes(query)) {
+          return true;
+        }
+
+        return false;
+      }));
+    }
+  }
 };
 
 
