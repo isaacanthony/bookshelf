@@ -65,10 +65,13 @@ const search = (el) => {
       query = query.toLowerCase();
 
       display(books.filter((book) => {
-        if (book.title.toLowerCase().includes(query)) {
-          return true;
-        }
+        if (book.title.toLowerCase().includes(query)) return true;
 
+        let authorMatch = book.authors
+          .map((author) => author.name.toLowerCase())
+          .filter((author) => author.includes(query))
+
+        if (authorMatch.length) return true;
         return false;
       }));
     }
@@ -102,13 +105,16 @@ const fetch = (isbns) => {
 
 
 fetch([
-  '9780812988529',
-  '9780099842606',
-  '9780140023084',
-  '9780385333474',
-  '9780446671002',
-  '9780460872706',
-  '9780791010082',
+  '9780812988529', // Slaughterhouse Five
+  '9780099842606', // Breakfast of Champions
+  '9780140023084', // Cat's Cradle
+  '9780385333474', // God Bless You, Mr. Rosewater
+  '9780446671002', // Celestine Prophecy
+  '9780460872706', // Great Gatsby
+  '9780241950432', // Catcher in the Rye
+  '9780141181233', // Siddartha
+  '9780521347600', // The Odyssey
+  '9780140445923', // The Iliad
 ]);
 </script>
 
