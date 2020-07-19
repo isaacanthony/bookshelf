@@ -44,11 +44,7 @@ const display = (arr) => {
           <img class="book-cover" src="${book.cover.medium}">
         </div>
       `);
-    } else {
-      console.log('Not found');
     }
-
-    console.log(book);
   });
 
   document.querySelector('.books').innerHTML = html.join('');
@@ -91,7 +87,7 @@ const fetch = (isbns) => {
 
   req.open(
     'GET',
-    `http://openlibrary.org/api/books?bibkeys=${keys}&callback=process&jscmd=data`,
+    `https://openlibrary.org/api/books?bibkeys=${keys}&callback=process&jscmd=data`,
   );
 
   req.onreadystatechange = function() {
