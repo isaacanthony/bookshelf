@@ -16,7 +16,7 @@
 <!-- html -->
 <div class="container">
   <div class="row">
-    <div class="col-lg-8 offset-lg-2">
+    <div class="col-lg-12">
       <div class="row mt-4 mb-4">
         <div class="col-lg-12">
           <input class="form-control search" type="text" placeholder="Search" onkeydown="search(this)">
@@ -40,7 +40,7 @@ const display = (arr) => {
   arr.forEach((book) => {
     if (book.cover) {
       html.push(`
-        <div class="col-lg-3 mb-3">
+        <div class="col-lg-2 mb-3">
           <img class="book-cover" src="${book.cover.medium}">
         </div>
       `);
@@ -54,25 +54,23 @@ const display = (arr) => {
 
 
 const search = (el) => {
-  if (event.key === 'Enter') {
-    let query = el.value;
+  let query = el.value;
 
-    if (!query) {
-      display(books);
-    } else {
-      query = query.toLowerCase();
+  if (!query) {
+    display(books);
+  } else {
+    query = query.toLowerCase();
 
-      display(books.filter((book) => {
-        if (book.title.toLowerCase().includes(query)) return true;
+    display(books.filter((book) => {
+      if (book.title.toLowerCase().includes(query)) return true;
 
-        let authorMatch = book.authors
-          .map((author) => author.name.toLowerCase())
-          .filter((author) => author.includes(query))
+      let authorMatch = book.authors
+        .map((author) => author.name.toLowerCase())
+        .filter((author) => author.includes(query))
 
-        if (authorMatch.length) return true;
-        return false;
-      }));
-    }
+      if (authorMatch.length) return true;
+      return false;
+    }));
   }
 };
 
@@ -107,6 +105,8 @@ fetch([
   '9780099842606', // Breakfast of Champions
   '9780140023084', // Cat's Cradle
   '9780385333474', // God Bless You, Mr. Rosewater
+  '9780385294164', // Galapagos
+  '9780385333511', // Bluebeard
   '9780446671002', // Celestine Prophecy
   '9780460872706', // Great Gatsby
   '9780241950432', // Catcher in the Rye
@@ -132,6 +132,40 @@ fetch([
   '9780552150736', // Angels & Demons
   '9780786282296', // Deception Point
   '9780307950680', // The Lost Symbol
+  '9781594206276', // Modern Romance
+  '9780060518288', // Series of Unfortunate Events 1
+  '9780060758073', // Series of Unfortunate Events 2
+  '9780061146336', // Series of Unfortunate Events 3
+  '9780060586560', // Series of Unfortunate Events 4
+  '9780064408639', // Series of Unfortunate Events 5
+  '9780064408646', // Series of Unfortunate Events 6
+  '9780439451291', // Series of Unfortunate Events 7
+  '9780060288914', // Series of Unfortunate Events 8
+  '9780064410120', // Series of Unfortunate Events 9
+  '9780439692533', // Series of Unfortunate Events 10
+  '9781405266161', // Series of Unfortunate Events 11
+  '9780064410151', // Series of Unfortunate Events 12
+  '9780060296445', // Series of Unfortunate Events 13
+  '9780006716631', // Lion, Witch, & Wardrobe
+  '9780141312125', // Artemis Fowl 1
+  '9780141312132', // Artemis Fowl 2
+  '9780141315485', // Artemis Fowl 3
+  '9780152024871', // Gammage Cup
+  '9780006754251', // The Phantom Tollbooth
+  '9780385732550', // The Giver
+  '9780385732567', // Gathering Blue
+  '9780140177374', // The Pearl
+  '9780062315007', // The Alchemist
+  '9780140366501', // Haroun and the Sea of Stories
+  '9780140180909', // Heart of Darkness
+  '9780140390124', // Frederick Douglass
+  '9780801824395', // Young Frederick Douglass
+  '9780192543721', // Frankenstein
+  '9780307481269', // Akhenaten
+  '9780140231861', // The Winter King
+  '9780374332655', // Holes
+  '9780786808779', // Summerland
+  '9780582151840', // A Wrinkle in Time
 ]);
 </script>
 
