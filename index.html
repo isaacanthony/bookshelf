@@ -8,7 +8,7 @@
   <!-- css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
   <style>
-    .book-cover { height: 100%; width: 100%; }
+    .book-cover { height: 92%; width: 100%; }
   </style>
 </head>
 <body>
@@ -29,24 +29,20 @@
 </div>
 
 <!-- js -->
+<script src="js/books.js"></script>
 <script>
 "use strict";
-var books = [];
 
 
 const display = (arr) => {
   let html = [];
 
   arr.forEach((book) => {
-    if (book.cover) {
-      html.push(`
-        <div class="col-lg-2 mb-3">
-          <img class="book-cover" src="${book.cover.medium}">
-        </div>
-      `);
-    } else {
-      console.log(book);
-    }
+    html.push(`
+      <div class="col-lg-2">
+        <img class="book-cover" src="${book[2]}">
+      </div>
+    `);
   });
 
   document.querySelector('.books').innerHTML = html.join('');
@@ -59,165 +55,14 @@ const search = (el) => {
   if (!query) {
     display(books);
   } else {
-    query = query.toLowerCase();
-
     display(books.filter((book) => {
-      if (book.title.toLowerCase().includes(query)) return true;
-
-      let authorMatch = book.authors
-        .map((author) => author.name.toLowerCase())
-        .filter((author) => author.includes(query))
-
-      if (authorMatch.length) return true;
-      return false;
+      return book[0].toLowerCase().includes(query.toLowerCase()) ||
+        book[1].toLowerCase().includes(query.toLowerCase());
     }));
   }
 };
 
 
-const process = (hsh) => {
-  books = Object.values(hsh);
-  display(books);
-};
-
-
-const fetch = (isbns) => {
-  let keys = isbns.map((isbn) => `ISBN:${isbn}`).join(',');
-  let req = new XMLHttpRequest();
-
-  req.open(
-    'GET',
-    `https://openlibrary.org/api/books?bibkeys=${keys}&callback=process&jscmd=data`,
-  );
-
-  req.onreadystatechange = function() {
-    if (this.readyState === 4 && this.status === 200) {
-      eval(req.responseText);
-    }
-  };
-
-  req.send();
-};
-
-
-fetch([
-  '9780812988529', // Slaughterhouse Five
-  '9780099842606', // Breakfast of Champions
-  '9780140023084', // Cat's Cradle
-  '9780385333474', // God Bless You, Mr. Rosewater
-  '9780385294164', // Galapagos
-  '9780385333511', // Bluebeard
-  '9780446671002', // Celestine Prophecy
-  '9780460872706', // Great Gatsby
-  '9780241950432', // Catcher in the Rye
-  '9780141181233', // Siddartha
-  '9780521347600', // The Odyssey
-  '9780140445923', // The Iliad
-  '9780330508117', // Hitchhiker's Guide to the Galaxy
-  '9780525244585', // Tao of Pooh
-  '9781786635167', // People's Republic of Walmart
-  '9780801089022', // Pathki Nana
-  '9780679457527', // Into Thin Air
-  '9780439203524', // Harry Potter 1
-  '9780439203531', // Harry Potter 2
-  '9780786222742', // Harry Potter 3
-  '9781338299175', // Harry Potter 4
-  '9780439358071', // Harry Potter 5
-  '9781408855942', // Harry Potter 6
-  '9780545139700', // Harry Potter 7
-  '9781338216660', // Cursed Child
-  '9780385514231', // Origin
-  '9780312335168', // Digital Fortress
-  '9780385504201', // Da Vinci Code
-  '9780552150736', // Angels & Demons
-  '9780786282296', // Deception Point
-  '9780307950680', // The Lost Symbol
-  '9781594206276', // Modern Romance
-  '9780060518288', // Series of Unfortunate Events 1
-  '9780060758073', // Series of Unfortunate Events 2
-  '9780061146336', // Series of Unfortunate Events 3
-  '9780060586560', // Series of Unfortunate Events 4
-  '9780064408639', // Series of Unfortunate Events 5
-  '9780064408646', // Series of Unfortunate Events 6
-  '9780439451291', // Series of Unfortunate Events 7
-  '9780060288914', // Series of Unfortunate Events 8
-  '9780064410120', // Series of Unfortunate Events 9
-  '9780439692533', // Series of Unfortunate Events 10
-  '9781405266161', // Series of Unfortunate Events 11
-  '9780064410151', // Series of Unfortunate Events 12
-  '9780060296445', // Series of Unfortunate Events 13
-  '9780006716631', // Lion, Witch, & Wardrobe
-  '9780141312125', // Artemis Fowl 1
-  '9780141312132', // Artemis Fowl 2
-  '9780141315485', // Artemis Fowl 3
-  '9780152024871', // Gammage Cup
-  '9780006754251', // The Phantom Tollbooth
-  '9780385732550', // The Giver
-  '9780385732567', // Gathering Blue
-  '9780140177374', // The Pearl
-  '9780062315007', // The Alchemist
-  '9780140366501', // Haroun and the Sea of Stories
-  '9780140180909', // Heart of Darkness
-  '9780140390124', // Frederick Douglass
-  '9780801824395', // Young Frederick Douglass
-  '9780192543721', // Frankenstein
-  '9780307481269', // Akhenaten
-  '9780140231861', // The Winter King
-  '9780374332655', // Holes
-  '9780786808779', // Summerland
-  '9780582151840', // A Wrinkle in Time
-  '9781551113050', // Time Machine
-  '9780312956769', // Die Hard with a Vengeance
-  '9780006174554', // Patriot Games
-  '9780312084462', // Ben Franklin Autobiography
-  '9780192126047', // The Republic
-  '9781930485143', // The Tao of Natural Breathing
-  '9780099468233', // Bringing Down the House
-  '9780060575120', // Busting Vegas
-  '9780061252723', // Rigged
-  '9780140437713', // Adventure of Sherlock Holmes
-  '9780060155476', // The Intelligent Investor
-  '9780026009102', // Fountainhead
-  '9780451191144', // Atlas Shrugged
-  '9780374275631', // Thinking Fast and Slow
-  '9780060589462', // Zen and the Art of Motorcycle Maintenance
-  '9780099282914', // Jurassic Park
-  '9780007181605', // State of Fear
-  '9780060541811', // The Andromeda Strain
-  '9780062073488', // And Then There Were None
-  '9780316017923', // Outliers
-  '9780316204361', // David and Goliath
-  '9780143117469', // Shop Class as Soulcraft
-  '9780140232929', // Snow Crash
-  '9780060512804', // Cryptonomicon
-  '9780743264730', // Einstein
-  '9780062301239', // Elon Musk
-  '9780140092332', // Sweetness and Power
-  // No Country for Old Men
-  // The Spy Who Came in from the Cold
-  // Hunger Games 1
-  // Little Brother - Cory Doctorow
-  // The Girl with the Dragon Tattoo 1, 2, 3
-  // The Information - James Gleck
-  // The Appeal - John Grisham
-  // A Brief History of Time
-  // The Trouble with Physics
-  // The Physics of Consciousness
-  // The Tao of Physics
-  // Codebreakers: The History of Codes and Ciphers
-  // The Elegant Universe
-  // The Fabric of the Cosmos
-  // 2001: A Space Odyssey
-  // Bourne Identity
-  // Torchlight - Robert Louis Stevenson III
-  // The Hobbit
-  // Fellowship of the Ring
-  // 15 Minutes
-  // Dead Man's Poker
-  // Dead Man's Bluff
-  // The Hound's of Baskerville
-  // Ten Little Indians
-]);
+display(books);
 </script>
-
 </body>
