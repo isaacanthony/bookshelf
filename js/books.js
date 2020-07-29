@@ -1,5 +1,11 @@
 const books = [
+  ['Aziz Ansari', 'Modern Romance', 'https://images-na.ssl-images-amazon.com/images/I/81p047toiVL.jpg'],
   ['Benjamin Hoff', 'The Tao of Pooh', 'https://images-na.ssl-images-amazon.com/images/I/41TEuYvatlL._SX363_BO1,204,203,200_.jpg'],
+  ['Dan Brown', 'Angels and Demons', 'https://images-na.ssl-images-amazon.com/images/I/51GHld4-CZL._SX349_BO1,204,203,200_.jpg'],
+  ['Dan Brown', 'Deception Point', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551277487l/976._SY475_.jpg'],
+  ['Dan Brown', 'Digital Fortress', 'https://danbrown.com/wp-content/themes/danbrown/images/db/covers/df.jpg'],
+  ['Dan Brown', 'The Da Vinci Code', 'https://vignette.wikia.nocookie.net/davincicode/images/6/6b/DaVinciCode.jpg/revision/latest/scale-to-width-down/340?cb=20081230190335'],
+  ['Dan Brown', 'The Lost Symbol', 'https://images-na.ssl-images-amazon.com/images/I/91twDBBv7LL.jpg'],
   ['Douglas Adams', 'The Hitchhiker\'s Guide to the Galaxy', 'https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/6/25/1435245979235/047c9878-9845-473c-9635-5f32545746b0-1355x2040.jpeg?width=700&quality=85&auto=format&fit=max&s=606433bda33c8c27c5ebd7ba85900473'],
   ['F. Scott Fitzgerald', 'The Great Gatsby', 'https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg'],
   ['Hermann Hesse', 'Siddhartha', 'https://images.penguinrandomhouse.com/cover/9780142437186'],
@@ -23,16 +29,9 @@ const books = [
   ['Kurt Vonnegut', 'Galapagos', 'https://i412.photobucket.com/albums/pp206/Nymeth_2/Galapagos.jpg'],
   ['Kurt Vonnegut', 'God Bless You, Mr. Rosewater', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328311538l/6389247.jpg'],
   ['Kurt Vonnegut', 'Slaughterhouse Five', 'https://images-na.ssl-images-amazon.com/images/I/71QcX1DbklL.jpg'],
-  ['Leigh Phillips & Michal Rozworski', 'People\'s Republic of Walmart', 'https://images-na.ssl-images-amazon.com/images/I/718sy5QgB6L.jpg'],
+  ['Leigh Phillips and Michal Rozworski', 'People\'s Republic of Walmart', 'https://images-na.ssl-images-amazon.com/images/I/718sy5QgB6L.jpg'],
 ];
 
-  // '9780385514231', // Origin
-  // '9780312335168', // Digital Fortress
-  // '9780385504201', // Da Vinci Code
-  // '9780552150736', // Angels & Demons
-  // '9780786282296', // Deception Point
-  // '9780307950680', // The Lost Symbol
-  // '9781594206276', // Modern Romance
   // '9780060518288', // Series of Unfortunate Events 1
   // '9780060758073', // Series of Unfortunate Events 2
   // '9780061146336', // Series of Unfortunate Events 3
