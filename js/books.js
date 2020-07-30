@@ -1,6 +1,16 @@
 const books = [
+  ['Arthur Conan Doyle', 'The Adventures of Sherlock Holmes', 'https://m.media-amazon.com/images/I/51wjunNRrgL.jpg'],
+  ['Ayn Rand', 'The Fountainhead', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388197152l/225221.jpg'],
+  ['Ayn Rand', 'Atlas Shrugged', 'https://images-na.ssl-images-amazon.com/images/I/612URtxh-qL.jpg'],
   ['Aziz Ansari', 'Modern Romance', 'https://images-na.ssl-images-amazon.com/images/I/81p047toiVL.jpg'],
+  ['Ben Mezrich', 'Bringing Down the House', 'https://m.media-amazon.com/images/I/51KvCgfEy4L.jpg'],
+  ['Ben Mezrich', 'Busting Vegas', 'https://images-na.ssl-images-amazon.com/images/I/51AiEKIJZ2L._SX331_BO1,204,203,200_.jpg'],
+  ['Ben Mezrich', 'Rigged', 'https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Rigged_%28book%29_by_Ben_Mezrich.jpg/220px-Rigged_%28book%29_by_Ben_Mezrich.jpg'],
+  ['Benjamin Franklin', 'The Autobiography of Benjamin Franklin', 'https://images-na.ssl-images-amazon.com/images/I/51qI-RdE-8L._SX384_BO1,204,203,200_.jpg'],
+  ['Benjamin Graham', 'The Intelligent Investor', 'https://images-na.ssl-images-amazon.com/images/I/91yj3mbz4JL.jpg'],
   ['Benjamin Hoff', 'The Tao of Pooh', 'https://images-na.ssl-images-amazon.com/images/I/41TEuYvatlL._SX363_BO1,204,203,200_.jpg'],
+  ['Bernard Cornwell', 'The Winter King', 'https://i.pinimg.com/originals/42/1f/c4/421fc436bd8960b4ce036eed6f0dd7e2.jpg'],
+  ['Burton G. Malkiel', 'A Random Walk Down Wall Street', 'https://prodimage.images-bn.com/pimages/9780393358384_p0_v3_s1200x630.jpg'],
   ['C.S. Lewis', 'The Lion, the Witch, and the Wardrobe', 'https://i.harperapps.com/hcanz/covers/9780006716778/x293.jpg'],
   ['Carol Kendall', 'The Gammage Cup', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1179240859l/892113.jpg'],
   ['Dan Brown', 'Angels and Demons', 'https://images-na.ssl-images-amazon.com/images/I/51GHld4-CZL._SX349_BO1,204,203,200_.jpg'],
@@ -8,6 +18,8 @@ const books = [
   ['Dan Brown', 'Digital Fortress', 'https://danbrown.com/wp-content/themes/danbrown/images/db/covers/df.jpg'],
   ['Dan Brown', 'The Da Vinci Code', 'https://vignette.wikia.nocookie.net/davincicode/images/6/6b/DaVinciCode.jpg/revision/latest/scale-to-width-down/340?cb=20081230190335'],
   ['Dan Brown', 'The Lost Symbol', 'https://images-na.ssl-images-amazon.com/images/I/91twDBBv7LL.jpg'],
+  ['Dennis Lewis', 'The Tao of Natural Breathing', 'https://images-na.ssl-images-amazon.com/images/I/816ppi8Vd-L.jpg'],
+  ['Derek Walcott', 'Omeros', 'https://upload.wikimedia.org/wikipedia/en/2/2a/Omerosbook.jpg'],
   ['Dickson J. Preston', 'Young Frederick Douglass', 'https://images-na.ssl-images-amazon.com/images/I/51DbFLgqClL._SX331_BO1,204,203,200_.jpg'],
   ['Douglas Adams', 'The Hitchhiker\'s Guide to the Galaxy', 'https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/6/25/1435245979235/047c9878-9845-473c-9635-5f32545746b0-1355x2040.jpeg?width=700&quality=85&auto=format&fit=max&s=606433bda33c8c27c5ebd7ba85900473'],
   ['Eoin Colfer', 'Artemis Fowl 1', 'https://upload.wikimedia.org/wikipedia/en/0/07/Artemis_Fowl_first_edition_cover.jpg'],
@@ -15,6 +27,7 @@ const books = [
   ['Eoin Colfer', 'Artemis Fowl 3', 'https://www.risingshadow.net/libdb/images/books/4054.jpg'],
   ['F. Scott Fitzgerald', 'The Great Gatsby', 'https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg'],
   ['Frederick Douglass', 'Narrative of the Life of Frederick Douglass', 'https://images-na.ssl-images-amazon.com/images/I/41sRYV05b6L._SX332_BO1,204,203,200_.jpg'],
+  ['H.G. Wells', 'The Time Machine', 'https://vignette.wikia.nocookie.net/spec-evo/images/4/45/The_Time_Machine.jpg/revision/latest/scale-to-width-down/340?cb=20140907221509'],
   ['Hermann Hesse', 'Siddhartha', 'https://images.penguinrandomhouse.com/cover/9780142437186'],
   ['Homer', 'The Iliad', 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRL2jahOoGTvAUAV1S5lYpAEF2VjftCqsPm5w&usqp=CAU'],
   ['Homer', 'The Odyssey', 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/8722/9780872204843.jpg'],
@@ -54,30 +67,20 @@ const books = [
   ['Lemony Snicket', 'A Series of Unfortunate Events 13', 'https://images-na.ssl-images-amazon.com/images/I/51gyNxkGIUL._SX350_BO1,204,203,200_.jpg'],
   ['Lois Lowry', 'Gathering Blue', 'https://upload.wikimedia.org/wikipedia/en/9/98/Lowry_gathering_blue_cover.jpg'],
   ['Lois Lowry', 'The Giver', 'https://images-na.ssl-images-amazon.com/images/I/51R8AA8QEVL.jpg'],
+  ['Louis Sachar', 'Holes', 'https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png'],
+  ['Madeleine L\'Engle', 'A Wrinkle in Time', 'https://i.ebayimg.com/images/g/NOQAAOSwSlVeIAXG/s-l640.jpg'],
+  ['Mary Shelley', 'Frankenstein', 'https://prod-cat-files.macmillan.cloud/MediaResources/Jackets/258W/9780312463182.jpg'],
+  ['Michael Chabon', 'Summerland', 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Chabon_summerland.jpg/220px-Chabon_summerland.jpg'],
+  ['Naguib Mahfouz', 'Akhenaten Dweller in Truth', 'https://m.media-amazon.com/images/I/414E3qKVTAL.jpg'],
   ['Norton Juster', 'The Phantom Tollbooth', 'https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Phantomtollbooth.PNG/220px-Phantomtollbooth.PNG'],
   ['Paulo Coehlo', 'The Alchemist', 'https://images-na.ssl-images-amazon.com/images/I/41ybG235TcL._SX329_BO1,204,203,200_.jpg'],
+  ['Plato', 'The Republic', 'https://pictures.abebooks.com/isbn/9780140455113-us.jpg'],
   ['Salman Rushdie', 'Haroun and the Sea of Stories', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1277683566l/471966.jpg'],
+  ['Sophocles', 'Antigone', 'https://images-na.ssl-images-amazon.com/images/I/41LaSiewAyL._SX317_BO1,204,203,200_.jpg'],
+  ['Tom Clancy', 'Patriot Games', 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/PatriotGames.JPG/220px-PatriotGames.JPG'],
+  ['Tom Clancy', 'The Sum of All Fears', 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/SOAF_movie.JPG/220px-SOAF_movie.JPG'],
 ];
 
-  // '9780192543721', // Frankenstein
-  // '9780307481269', // Akhenaten
-  // '9780140231861', // The Winter King
-  // '9780374332655', // Holes
-  // '9780786808779', // Summerland
-  // '9780582151840', // A Wrinkle in Time
-  // '9781551113050', // Time Machine
-  // '9780312956769', // Die Hard with a Vengeance
-  // '9780006174554', // Patriot Games
-  // '9780312084462', // Ben Franklin Autobiography
-  // '9780192126047', // The Republic
-  // '9781930485143', // The Tao of Natural Breathing
-  // '9780099468233', // Bringing Down the House
-  // '9780060575120', // Busting Vegas
-  // '9780061252723', // Rigged
-  // '9780140437713', // Adventure of Sherlock Holmes
-  // '9780060155476', // The Intelligent Investor
-  // '9780026009102', // Fountainhead
-  // '9780451191144', // Atlas Shrugged
   // '9780374275631', // Thinking Fast and Slow
   // '9780060589462', // Zen and the Art of Motorcycle Maintenance
   // '9780099282914', // Jurassic Park
