@@ -95,6 +95,9 @@ const books = [
   // '9780743264730', // Einstein
   // '9780062301239', // Elon Musk
   // '9780140092332', // Sweetness and Power
+
+  // 1984
+  // Animal Farm
   // No Country for Old Men
   // The Spy Who Came in from the Cold
   // Hunger Games 1
@@ -119,3 +122,31 @@ const books = [
   // Dead Man's Bluff
   // The Hound's of Baskerville
   // Ten Little Indians
+
+  // 10% Happier
+  // Book of Job
+  // Good Earth
+  // How to Win Friends and Influence People
+  // Diary of Anne Frank
+  // Night - Elie Wiesel
+  // A Long Walk Spoiled
+  // When Breath Becomes Air
+  // Values of the Game
+  // The Score Takes Care of Itself - Bill Walsh
+  // Watchmen
+  // Metamorphosis - Kafka
+  // Adventures of Huckleberry Finn
+  // Importance of Being Earnest
+  // Beowulf
+  // The Hounds of Baskerville
+  // The Call of the Wild
+  // My Side of the Mountain
+  // Hatchet
+  // Walden
+  // Tao Te Ching
+  // Tempest
+  // Hamlet
+  // Black Theology and Black Power - James Cone
+  // Amy Poehler Autobiography
+  // Amy Schumer Autobiography
+  // As You Wish - Cary Elwes
