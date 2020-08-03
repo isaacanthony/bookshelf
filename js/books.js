@@ -1,5 +1,7 @@
 const books = [
+  ['Agatha Christie', 'And Then There Were None', 'https://m.media-amazon.com/images/I/41l02vDN4pL.jpg'],
   ['Arthur Conan Doyle', 'The Adventures of Sherlock Holmes', 'https://m.media-amazon.com/images/I/51wjunNRrgL.jpg'],
+  ['Ashlee Vance', 'Elon Musk', 'https://images-na.ssl-images-amazon.com/images/I/5112YFsXIJL._SX330_BO1,204,203,200_.jpg'],
   ['Ayn Rand', 'The Fountainhead', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388197152l/225221.jpg'],
   ['Ayn Rand', 'Atlas Shrugged', 'https://images-na.ssl-images-amazon.com/images/I/612URtxh-qL.jpg'],
   ['Aziz Ansari', 'Modern Romance', 'https://images-na.ssl-images-amazon.com/images/I/81p047toiVL.jpg'],
@@ -18,6 +20,7 @@ const books = [
   ['Dan Brown', 'Digital Fortress', 'https://danbrown.com/wp-content/themes/danbrown/images/db/covers/df.jpg'],
   ['Dan Brown', 'The Da Vinci Code', 'https://vignette.wikia.nocookie.net/davincicode/images/6/6b/DaVinciCode.jpg/revision/latest/scale-to-width-down/340?cb=20081230190335'],
   ['Dan Brown', 'The Lost Symbol', 'https://images-na.ssl-images-amazon.com/images/I/91twDBBv7LL.jpg'],
+  ['Daniel Kahneman', 'Thinking Fast and Slow', 'https://images-na.ssl-images-amazon.com/images/I/41wI53OEpCL._SX332_BO1,204,203,200_.jpg'],
   ['Dennis Lewis', 'The Tao of Natural Breathing', 'https://images-na.ssl-images-amazon.com/images/I/816ppi8Vd-L.jpg'],
   ['Derek Walcott', 'Omeros', 'https://upload.wikimedia.org/wikipedia/en/2/2a/Omerosbook.jpg'],
   ['Dickson J. Preston', 'Young Frederick Douglass', 'https://images-na.ssl-images-amazon.com/images/I/51DbFLgqClL._SX331_BO1,204,203,200_.jpg'],
@@ -69,32 +72,28 @@ const books = [
   ['Lois Lowry', 'The Giver', 'https://images-na.ssl-images-amazon.com/images/I/51R8AA8QEVL.jpg'],
   ['Louis Sachar', 'Holes', 'https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png'],
   ['Madeleine L\'Engle', 'A Wrinkle in Time', 'https://i.ebayimg.com/images/g/NOQAAOSwSlVeIAXG/s-l640.jpg'],
+  ['Malcolm Gladwell', 'Outliers', 'https://images-na.ssl-images-amazon.com/images/I/41LO6QRvIuL._SX331_BO1,204,203,200_.jpg'],
+  ['Malcolm Gladwell', 'David and Goliath', 'https://images-na.ssl-images-amazon.com/images/I/41H9ZCmjenL.jpg'],
   ['Mary Shelley', 'Frankenstein', 'https://prod-cat-files.macmillan.cloud/MediaResources/Jackets/258W/9780312463182.jpg'],
+  ['Matthew B. Crawford', 'Shop Class as Soulcraft', 'https://images-na.ssl-images-amazon.com/images/I/514FGVRnh8L._SX325_BO1,204,203,200_.jpg'],
   ['Michael Chabon', 'Summerland', 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Chabon_summerland.jpg/220px-Chabon_summerland.jpg'],
+  ['Michael Crichton', 'The Andromeda Strain', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516465304l/18726080._SY475_.jpg'],
+  ['Michael Crichton', 'Jurassic Park', 'https://prodimage.images-bn.com/pimages/9780345538987_p0_v2_s550x406.jpg'],
+  ['Michael Crichton', 'State of Fear', 'https://images-na.ssl-images-amazon.com/images/I/71AEIuKNv2L.jpg'],
   ['Naguib Mahfouz', 'Akhenaten Dweller in Truth', 'https://m.media-amazon.com/images/I/414E3qKVTAL.jpg'],
+  ['Neal Stephenson', 'Cryptonomicon', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387758151l/19785919.jpg'],
+  ['Neal Stephenson', 'Snow Crash', 'https://i.ebayimg.com/images/g/UokAAOSwIYxfA4Pp/s-l300.jpg'],
   ['Norton Juster', 'The Phantom Tollbooth', 'https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Phantomtollbooth.PNG/220px-Phantomtollbooth.PNG'],
   ['Paulo Coehlo', 'The Alchemist', 'https://images-na.ssl-images-amazon.com/images/I/41ybG235TcL._SX329_BO1,204,203,200_.jpg'],
   ['Plato', 'The Republic', 'https://pictures.abebooks.com/isbn/9780140455113-us.jpg'],
+  ['Robert M. Pirsig', 'Zen and the Art of Motorcycle Maintenance', 'https://m.media-amazon.com/images/I/51y4OhDDi3L._SL350_.jpg'],
   ['Salman Rushdie', 'Haroun and the Sea of Stories', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1277683566l/471966.jpg'],
   ['Sophocles', 'Antigone', 'https://images-na.ssl-images-amazon.com/images/I/41LaSiewAyL._SX317_BO1,204,203,200_.jpg'],
+  ['Sidney W. Mintz', 'Sweetness and Power', 'https://images-na.ssl-images-amazon.com/images/I/51cpqGQ0rLL._SX325_BO1,204,203,200_.jpg'],
   ['Tom Clancy', 'Patriot Games', 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/PatriotGames.JPG/220px-PatriotGames.JPG'],
   ['Tom Clancy', 'The Sum of All Fears', 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/SOAF_movie.JPG/220px-SOAF_movie.JPG'],
+  ['Walter Isaacson', 'Einstein', 'https://images-na.ssl-images-amazon.com/images/I/816W3z2T3cL.jpg'],
 ];
-
-  // '9780374275631', // Thinking Fast and Slow
-  // '9780060589462', // Zen and the Art of Motorcycle Maintenance
-  // '9780099282914', // Jurassic Park
-  // '9780007181605', // State of Fear
-  // '9780060541811', // The Andromeda Strain
-  // '9780062073488', // And Then There Were None
-  // '9780316017923', // Outliers
-  // '9780316204361', // David and Goliath
-  // '9780143117469', // Shop Class as Soulcraft
-  // '9780140232929', // Snow Crash
-  // '9780060512804', // Cryptonomicon
-  // '9780743264730', // Einstein
-  // '9780062301239', // Elon Musk
-  // '9780140092332', // Sweetness and Power
 
   // 1984
   // Animal Farm
@@ -150,3 +149,6 @@ const books = [
   // Amy Poehler Autobiography
   // Amy Schumer Autobiography
   // As You Wish - Cary Elwes
+
+  // The Fifties - David Halberstam
+  // The Secret
