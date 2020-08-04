@@ -1,6 +1,8 @@
 const books = [
   ['Agatha Christie', 'And Then There Were None', 'https://m.media-amazon.com/images/I/41l02vDN4pL.jpg'],
+  ['Arthur C. Clarke', '2001: A Space Odyssey', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432468943l/70535._SY475_.jpg'],
   ['Arthur Conan Doyle', 'The Adventures of Sherlock Holmes', 'https://m.media-amazon.com/images/I/51wjunNRrgL.jpg'],
+  ['Arthur Conan Doyle', 'The Hounds of the Baskervilles', 'https://images1.penguinrandomhouse.com/cover/9781101098394'],
   ['Ashlee Vance', 'Elon Musk', 'https://images-na.ssl-images-amazon.com/images/I/5112YFsXIJL._SX330_BO1,204,203,200_.jpg'],
   ['Ayn Rand', 'The Fountainhead', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388197152l/225221.jpg'],
   ['Ayn Rand', 'Atlas Shrugged', 'https://images-na.ssl-images-amazon.com/images/I/612URtxh-qL.jpg'],
@@ -12,14 +14,19 @@ const books = [
   ['Benjamin Graham', 'The Intelligent Investor', 'https://images-na.ssl-images-amazon.com/images/I/91yj3mbz4JL.jpg'],
   ['Benjamin Hoff', 'The Tao of Pooh', 'https://images-na.ssl-images-amazon.com/images/I/41TEuYvatlL._SX363_BO1,204,203,200_.jpg'],
   ['Bernard Cornwell', 'The Winter King', 'https://i.pinimg.com/originals/42/1f/c4/421fc436bd8960b4ce036eed6f0dd7e2.jpg'],
+  ['Brian Greene', 'The Elegant Universe', 'https://images-na.ssl-images-amazon.com/images/I/51g2zhYLXCL._SX325_BO1,204,203,200_.jpg'],
+  ['Brian Greene', 'The Fabric of the Cosmos', 'https://images-na.ssl-images-amazon.com/images/I/81eOaTPxsYL.jpg'],
   ['Burton G. Malkiel', 'A Random Walk Down Wall Street', 'https://prodimage.images-bn.com/pimages/9780393358384_p0_v3_s1200x630.jpg'],
   ['C.S. Lewis', 'The Lion, the Witch, and the Wardrobe', 'https://i.harperapps.com/hcanz/covers/9780006716778/x293.jpg'],
   ['Carol Kendall', 'The Gammage Cup', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1179240859l/892113.jpg'],
+  ['Cory Doctorow', 'Little Brother', 'https://images-na.ssl-images-amazon.com/images/I/41Yz41DiHvL._SX324_BO1,204,203,200_.jpg'],
+  ['Dale Carnegie', 'How to Win Friends and Influence People', 'https://prodimage.images-bn.com/pimages/9780671027032_p0_v2_s1200x630.jpg'],
   ['Dan Brown', 'Angels and Demons', 'https://images-na.ssl-images-amazon.com/images/I/51GHld4-CZL._SX349_BO1,204,203,200_.jpg'],
   ['Dan Brown', 'Deception Point', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551277487l/976._SY475_.jpg'],
   ['Dan Brown', 'Digital Fortress', 'https://danbrown.com/wp-content/themes/danbrown/images/db/covers/df.jpg'],
   ['Dan Brown', 'The Da Vinci Code', 'https://vignette.wikia.nocookie.net/davincicode/images/6/6b/DaVinciCode.jpg/revision/latest/scale-to-width-down/340?cb=20081230190335'],
   ['Dan Brown', 'The Lost Symbol', 'https://images-na.ssl-images-amazon.com/images/I/91twDBBv7LL.jpg'],
+  ['Dan Harris', '10% Happier', 'https://images-na.ssl-images-amazon.com/images/I/41BVobaX1-L._SX330_BO1,204,203,200_.jpg'],
   ['Daniel Kahneman', 'Thinking Fast and Slow', 'https://images-na.ssl-images-amazon.com/images/I/41wI53OEpCL._SX332_BO1,204,203,200_.jpg'],
   ['Dennis Lewis', 'The Tao of Natural Breathing', 'https://images-na.ssl-images-amazon.com/images/I/816ppi8Vd-L.jpg'],
   ['Derek Walcott', 'Omeros', 'https://upload.wikimedia.org/wikipedia/en/2/2a/Omerosbook.jpg'],
@@ -28,8 +35,12 @@ const books = [
   ['Eoin Colfer', 'Artemis Fowl 1', 'https://upload.wikimedia.org/wikipedia/en/0/07/Artemis_Fowl_first_edition_cover.jpg'],
   ['Eoin Colfer', 'Artemis Fowl 2', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388294381l/114955.jpg'],
   ['Eoin Colfer', 'Artemis Fowl 3', 'https://www.risingshadow.net/libdb/images/books/4054.jpg'],
+  ['Evan Harris Walker', 'The Physics of Consciousness', 'https://images-na.ssl-images-amazon.com/images/I/41MWF40QK8L._SX307_BO1,204,203,200_.jpg'],
   ['F. Scott Fitzgerald', 'The Great Gatsby', 'https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg'],
   ['Frederick Douglass', 'Narrative of the Life of Frederick Douglass', 'https://images-na.ssl-images-amazon.com/images/I/41sRYV05b6L._SX332_BO1,204,203,200_.jpg'],
+  ['Fritjof Capra', 'The Tao of Physics', 'https://upload.wikimedia.org/wikipedia/en/3/35/The_Tao_of_Physics_%28first_edition%29.jpg'],
+  ['George Orwell', '1984', 'https://i.ebayimg.com/images/g/pq8AAOSwOZRfGfTY/s-l640.jpg'],
+  ['George Orwell', 'Animal Farm', 'https://images.bwbcovers.com/045/Animal-Farm-9780451524669.jpg'],
   ['H.G. Wells', 'The Time Machine', 'https://vignette.wikia.nocookie.net/spec-evo/images/4/45/The_Time_Machine.jpg/revision/latest/scale-to-width-down/340?cb=20140907221509'],
   ['Hermann Hesse', 'Siddhartha', 'https://images.penguinrandomhouse.com/cover/9780142437186'],
   ['Homer', 'The Iliad', 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRL2jahOoGTvAUAV1S5lYpAEF2VjftCqsPm5w&usqp=CAU'],
@@ -43,7 +54,14 @@ const books = [
   ['J.K. Rowling', 'Harry Potter 6', 'https://images-na.ssl-images-amazon.com/images/I/51uO1pQc5oL._SX329_BO1,204,203,200_.jpg'],
   ['J.K. Rowling', 'Harry Potter 7', 'https://images-na.ssl-images-amazon.com/images/I/51jyI6lYi1L._SX342_BO1,204,203,200_.jpg'],
   ['J.K. Rowling', 'Harry Potter and the Cursed Child', 'https://images-na.ssl-images-amazon.com/images/I/51NRPISnBuL._SX341_BO1,204,203,200_.jpg'],
+  ['J.R.R. Tolkien', 'The Hobbit', 'https://images-na.ssl-images-amazon.com/images/I/51e5yIs332L._SX284_BO1,204,203,200_.jpg'],
+  ['J.R.R. Tolkien', 'The Lord of the Rings 1', 'https://images-na.ssl-images-amazon.com/images/I/51Jp4bJahDL.jpg'],
+  ['James Gleick', 'The Information', 'https://images-na.ssl-images-amazon.com/images/I/510E4q8npXL._SX321_BO1,204,203,200_.jpg'],
   ['James Redfield', 'The Celestine Prophecy', 'https://books.images.hpb.com/9780446518628/product.jpg'],
+  ['James Swain', 'Deadman\'s Poker', 'https://images-na.ssl-images-amazon.com/images/I/51knSqmFRCL._SX303_BO1,204,203,200_.jpg'],
+  ['James Swain', 'Deadman\'s Bluff', 'https://images-na.ssl-images-amazon.com/images/I/51-9WNPT8gL.__BG0,0,0,0_FMpng_AC_UL600_SR366,600_.jpg'],
+  ['John Grisham', 'The Appeal', 'https://upload.wikimedia.org/wikipedia/en/thumb/5/56/The_Appeal_John_Grisham_Novel.JPG/220px-The_Appeal_John_Grisham_Novel.JPG'],
+  ['John Le Carre', 'The Spy Who Came in from the Cold', 'https://i.ebayimg.com/images/g/XPQAAOSwTlBZ4JTc/s-l640.jpg'],
   ['John Steinbeck', 'The Pearl', 'https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-book/pearl-book-image.jpg?itok=DYYEkeLX'],
   ['Jon Krakauer', 'Into Thin Air', 'https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Into_Thin_Air.jpg/220px-Into_Thin_Air.jpg'],
   ['Joseph Conrad', 'Heart of Darkness', 'https://miro.medium.com/max/645/1*t9EGFixZjb05VqzTLsICTw.jpeg'],
@@ -54,6 +72,7 @@ const books = [
   ['Kurt Vonnegut', 'Galapagos', 'https://i412.photobucket.com/albums/pp206/Nymeth_2/Galapagos.jpg'],
   ['Kurt Vonnegut', 'God Bless You, Mr. Rosewater', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328311538l/6389247.jpg'],
   ['Kurt Vonnegut', 'Slaughterhouse Five', 'https://images-na.ssl-images-amazon.com/images/I/71QcX1DbklL.jpg'],
+  ['Lee Smolin', 'The Trouble with Physics', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390467381l/782057.jpg'],
   ['Leigh Phillips and Michal Rozworski', 'People\'s Republic of Walmart', 'https://images-na.ssl-images-amazon.com/images/I/718sy5QgB6L.jpg'],
   ['Lemony Snicket', 'A Series of Unfortunate Events 1', 'https://upload.wikimedia.org/wikipedia/en/thumb/6/68/BadBeginning.jpg/220px-BadBeginning.jpg'],
   ['Lemony Snicket', 'A Series of Unfortunate Events 2', 'https://images-na.ssl-images-amazon.com/images/I/51wznh+793L._SY344_BO1,204,203,200_.jpg'],
@@ -80,52 +99,32 @@ const books = [
   ['Michael Crichton', 'The Andromeda Strain', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516465304l/18726080._SY475_.jpg'],
   ['Michael Crichton', 'Jurassic Park', 'https://prodimage.images-bn.com/pimages/9780345538987_p0_v2_s550x406.jpg'],
   ['Michael Crichton', 'State of Fear', 'https://images-na.ssl-images-amazon.com/images/I/71AEIuKNv2L.jpg'],
+  ['Michio Kaku', 'Physics of the Impossible', 'https://images-na.ssl-images-amazon.com/images/I/51l28XOeOnL._SX327_BO1,204,203,200_.jpg'],
   ['Naguib Mahfouz', 'Akhenaten Dweller in Truth', 'https://m.media-amazon.com/images/I/414E3qKVTAL.jpg'],
   ['Neal Stephenson', 'Cryptonomicon', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387758151l/19785919.jpg'],
   ['Neal Stephenson', 'Snow Crash', 'https://i.ebayimg.com/images/g/UokAAOSwIYxfA4Pp/s-l300.jpg'],
   ['Norton Juster', 'The Phantom Tollbooth', 'https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Phantomtollbooth.PNG/220px-Phantomtollbooth.PNG'],
   ['Paulo Coehlo', 'The Alchemist', 'https://images-na.ssl-images-amazon.com/images/I/41ybG235TcL._SX329_BO1,204,203,200_.jpg'],
+  ['Pearl S. Buck', 'The Good Earth', 'https://images-na.ssl-images-amazon.com/images/I/51zRzieodBL._SX320_BO1,204,203,200_.jpg'],
   ['Plato', 'The Republic', 'https://pictures.abebooks.com/isbn/9780140455113-us.jpg'],
+  ['Robert Louis Stevenson III', 'Torchlight', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427214506l/6966166.jpg'],
+  ['Robert Ludlum', 'The Bourne Identity', 'https://i.ebayimg.com/images/g/~HEAAOSwTEteOzdB/s-l640.jpg'],
   ['Robert M. Pirsig', 'Zen and the Art of Motorcycle Maintenance', 'https://m.media-amazon.com/images/I/51y4OhDDi3L._SL350_.jpg'],
   ['Salman Rushdie', 'Haroun and the Sea of Stories', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1277683566l/471966.jpg'],
-  ['Sophocles', 'Antigone', 'https://images-na.ssl-images-amazon.com/images/I/41LaSiewAyL._SX317_BO1,204,203,200_.jpg'],
   ['Sidney W. Mintz', 'Sweetness and Power', 'https://images-na.ssl-images-amazon.com/images/I/51cpqGQ0rLL._SX325_BO1,204,203,200_.jpg'],
+  ['Sophocles', 'Antigone', 'https://images-na.ssl-images-amazon.com/images/I/41LaSiewAyL._SX317_BO1,204,203,200_.jpg'],
+  ['Stephen Hawking', 'A Brief History of Time', 'https://prodimage.images-bn.com/pimages/9784871871150_p0_v1_s550x406.jpg'],
+  ['Stephen Mitchell', 'The Book of Job', 'https://images-na.ssl-images-amazon.com/images/I/51BNAD8p6pL.jpg'],
+  ['Stephen Pincock', 'Codebreaker', 'https://images-na.ssl-images-amazon.com/images/I/5162ubzA45L.jpg'],
+  ['Stieg Larsson', 'The Girl with the Dragon Tattoo 1', 'https://images-na.ssl-images-amazon.com/images/I/51AA0MWoCIL._SX277_BO1,204,203,200_.jpg'],
+  ['Stieg Larsson', 'The Girl with the Dragon Tattoo 2', 'https://m.media-amazon.com/images/I/61PlJJX191L.jpg'],
+  ['Stieg Larsson', 'The Girl with the Dragon Tattoo 3', 'https://images-na.ssl-images-amazon.com/images/I/814hdIxmkgL.jpg'],
+  ['Suzanne Collins', 'The Hunger Games 1', 'https://images-na.ssl-images-amazon.com/images/I/61JfGcL2ljL.jpg'],
   ['Tom Clancy', 'Patriot Games', 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/PatriotGames.JPG/220px-PatriotGames.JPG'],
   ['Tom Clancy', 'The Sum of All Fears', 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/SOAF_movie.JPG/220px-SOAF_movie.JPG'],
   ['Walter Isaacson', 'Einstein', 'https://images-na.ssl-images-amazon.com/images/I/816W3z2T3cL.jpg'],
 ];
 
-  // 1984
-  // Animal Farm
-  // No Country for Old Men
-  // The Spy Who Came in from the Cold
-  // Hunger Games 1
-  // Little Brother - Cory Doctorow
-  // The Girl with the Dragon Tattoo 1, 2, 3
-  // The Information - James Gleck
-  // The Appeal - John Grisham
-  // A Brief History of Time
-  // The Trouble with Physics
-  // The Physics of Consciousness
-  // The Tao of Physics
-  // Codebreakers: The History of Codes and Ciphers
-  // The Elegant Universe
-  // The Fabric of the Cosmos
-  // 2001: A Space Odyssey
-  // Bourne Identity
-  // Torchlight - Robert Louis Stevenson III
-  // The Hobbit
-  // Fellowship of the Ring
-  // 15 Minutes
-  // Dead Man's Poker
-  // Dead Man's Bluff
-  // The Hound's of Baskerville
-  // Ten Little Indians
-
-  // 10% Happier
-  // Book of Job
-  // Good Earth
-  // How to Win Friends and Influence People
   // Diary of Anne Frank
   // Night - Elie Wiesel
   // A Long Walk Spoiled
@@ -137,7 +136,6 @@ const books = [
   // Adventures of Huckleberry Finn
   // Importance of Being Earnest
   // Beowulf
-  // The Hounds of Baskerville
   // The Call of the Wild
   // My Side of the Mountain
   // Hatchet
@@ -149,6 +147,7 @@ const books = [
   // Amy Poehler Autobiography
   // Amy Schumer Autobiography
   // As You Wish - Cary Elwes
+  // 15 Minutes
 
   // The Fifties - David Halberstam
   // The Secret
