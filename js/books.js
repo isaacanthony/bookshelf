@@ -154,3 +154,42 @@ const books = [
   ['William Shakespeare', 'The Tempest', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546081115l/12985.jpg'],
   ['William Shakespeare', 'Hamlet', 'https://images-na.ssl-images-amazon.com/images/I/81pl6ZLEFtL.jpg'],
 ];
+
+// Tangerine
+// Abarat
+// The World is Flat
+// Brave New World
+// The Cay
+// Johnny Tremain
+// My Brother Sam is Dead
+// Where the Red Fern Grows
+// Maus I - Spiegelman
+// Wicked - Gregory Maggie
+// The Stranger - Albert Camus
+// Le Petit Prince
+// Maitre Pathelin
+// Off-Line - Lawrence Goldstone
+// The Enemy - Lee Child
+// The Thief - Mega Whalen Turner
+// Hidden Talents - David Lubar
+// Danny the Champion of the World - Roald Dahl
+// Charlie and the Great Glass Elevator - Roald Dahl
+// The Westing Game
+// 15 Minutes - Gary Goldstein
+// Seals Strategic Warfare - Mike Martell
+// King Arthur - Roger Lancelyn Green
+// The Broker - John Grisham
+// A Painted House - John Grisham
+// Quantum - Jim Al-Khalili
+// Panic - Jeff Abbott
+// Nature's Numbers - Ian Stewart
+// Which Witch - Eva Ibbotson
+// Poker - David A. Daniel
+// Book of Bluffs - Matt Lessinger
+// Caro's Book of Poker Tells - Mike Caro
+// Hold 'Em Poker - Gary Carson
+// The Gambling Time Guide to Casino Games - Len Miller
+// Forbidden Forest - Michael Cadnum
+// The Traitor - Stephen Coonts
+// Copenhagen - Michael Frayn
+// The Crucible - Arthur Miller
