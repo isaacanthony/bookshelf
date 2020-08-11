@@ -41,12 +41,14 @@ const books = [
   ['Dan Harris', '10% Happier', 'https://images-na.ssl-images-amazon.com/images/I/41BVobaX1-L._SX330_BO1,204,203,200_.jpg'],
   ['Daniel Kahneman', 'Thinking Fast and Slow', 'https://images-na.ssl-images-amazon.com/images/I/41wI53OEpCL._SX332_BO1,204,203,200_.jpg'],
   ['David Halberstam', 'The Fifties', 'https://images-na.ssl-images-amazon.com/images/I/51isNeJ1mHL._SX331_BO1,204,203,200_.jpg'],
+  ['David Lubar', 'Hidden Talents', 'https://images-na.ssl-images-amazon.com/images/I/51Imh0WG7HL._AC_SY400_.jpg'],
   ['Dennis Lewis', 'The Tao of Natural Breathing', 'https://images-na.ssl-images-amazon.com/images/I/816ppi8Vd-L.jpg'],
   ['Derek Walcott', 'Omeros', 'https://upload.wikimedia.org/wikipedia/en/2/2a/Omerosbook.jpg'],
   ['Dickson J. Preston', 'Young Frederick Douglass', 'https://images-na.ssl-images-amazon.com/images/I/51DbFLgqClL._SX331_BO1,204,203,200_.jpg'],
   ['Douglas Adams', 'The Hitchhiker\'s Guide to the Galaxy', 'https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/6/25/1435245979235/047c9878-9845-473c-9635-5f32545746b0-1355x2040.jpeg?width=700&quality=85&auto=format&fit=max&s=606433bda33c8c27c5ebd7ba85900473'],
   ['Edward Bloor', 'Tangerine', 'https://static.tvtropes.org/pmwiki/pub/images/a6e0d6180d8458537b696458cbe68766.png'],
   ['Elie Wiesel', 'Night', 'https://i.ebayimg.com/images/g/YMkAAOSwIjJZO~rP/s-l600.jpg'],
+  ['Ellen Raskin', 'The Westing Game', 'http://www.michellemach.com/blog/htmlarea/images/content/WestingGame-cover-250.jpg'],
   ['Eoin Colfer', 'Artemis Fowl 1', 'https://upload.wikimedia.org/wikipedia/en/0/07/Artemis_Fowl_first_edition_cover.jpg'],
   ['Eoin Colfer', 'Artemis Fowl 2', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388294381l/114955.jpg'],
   ['Eoin Colfer', 'Artemis Fowl 3', 'https://www.risingshadow.net/libdb/images/books/4054.jpg'],
@@ -102,6 +104,7 @@ const books = [
   ['Kurt Vonnegut', 'Slaughterhouse Five', 'https://images-na.ssl-images-amazon.com/images/I/71QcX1DbklL.jpg'],
   ['Lao Tzu', 'Tao te Ching', 'https://m.media-amazon.com/images/I/51ae2WNHXqL.jpg'],
   ['Lawrence Goldstone', 'Off-Line', 'https://images-na.ssl-images-amazon.com/images/I/419vg91jQ2L._SX314_BO1,204,203,200_.jpg'],
+  ['Lee Child', 'The Enemy', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388210939l/231562.jpg'],
   ['Lee Smolin', 'The Trouble with Physics', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390467381l/782057.jpg'],
   ['Leigh Phillips and Michal Rozworski', 'People\'s Republic of Walmart', 'https://images-na.ssl-images-amazon.com/images/I/718sy5QgB6L.jpg'],
   ['Lemony Snicket', 'A Series of Unfortunate Events 1', 'https://upload.wikimedia.org/wikipedia/en/thumb/6/68/BadBeginning.jpg/220px-BadBeginning.jpg'],
@@ -126,6 +129,7 @@ const books = [
   ['Mark Twain', 'Adventures of Huckleberry Finn', 'https://m.media-amazon.com/images/I/51Ug1JktPpL._SL350_.jpg'],
   ['Mary Shelley', 'Frankenstein', 'https://prod-cat-files.macmillan.cloud/MediaResources/Jackets/258W/9780312463182.jpg'],
   ['Matthew B. Crawford', 'Shop Class as Soulcraft', 'https://images-na.ssl-images-amazon.com/images/I/514FGVRnh8L._SX325_BO1,204,203,200_.jpg'],
+  ['Megan Whalen Turner', 'The Thief', 'https://pictures.abebooks.com/isbn/9780140388343-us-300.jpg'],
   ['Michael Chabon', 'Summerland', 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Chabon_summerland.jpg/220px-Chabon_summerland.jpg'],
   ['Michael Crichton', 'The Andromeda Strain', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516465304l/18726080._SY475_.jpg'],
   ['Michael Crichton', 'Jurassic Park', 'https://prodimage.images-bn.com/pimages/9780345538987_p0_v2_s550x406.jpg'],
@@ -144,6 +148,8 @@ const books = [
   ['Pierre Spierckel', 'La Farce de Maitre Pathelin', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347635739l/984624.jpg'],
   ['Plato', 'The Republic', 'https://pictures.abebooks.com/isbn/9780140455113-us.jpg'],
   ['Rhonda Byrne', 'The Secret', 'https://i5.walmartimages.com/asr/1beb206f-6c80-4c85-840f-61e7dc2509f9_1.17a7fc26115afa2a0a671ed8914b16b1.jpeg'],
+  ['Roald Dahl', 'Danny the Champion of the World', 'https://www.scholastic.com/content5/media/products/43/9780141301143_mres.jpg'],
+  ['Roald Dahl', 'Charlie and the Great Glass Elevator', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1190183083l/1910094.jpg'],
   ['Robert Louis Stevenson III', 'Torchlight', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427214506l/6966166.jpg'],
   ['Robert Ludlum', 'The Bourne Identity', 'https://i.ebayimg.com/images/g/~HEAAOSwTEteOzdB/s-l640.jpg'],
   ['Robert M. Pirsig', 'Zen and the Art of Motorcycle Maintenance', 'https://m.media-amazon.com/images/I/51y4OhDDi3L._SL350_.jpg'],
@@ -169,12 +175,6 @@ const books = [
   ['Wilson Rawls', 'Where the Red Fern Grows', 'https://images-na.ssl-images-amazon.com/images/I/51W5dPzWHvL._SX314_BO1,204,203,200_.jpg'],
 ];
 
-// The Enemy - Lee Child
-// The Thief - Mega Whalen Turner
-// Hidden Talents - David Lubar
-// Danny the Champion of the World - Roald Dahl
-// Charlie and the Great Glass Elevator - Roald Dahl
-// The Westing Game
 // 15 Minutes - Gary Goldstein
 // Seals Strategic Warfare - Mike Martell
 // King Arthur - Roger Lancelyn Green
