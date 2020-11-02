@@ -67,7 +67,7 @@ const books = [
   ['George Orwell', '1984', 'https://i.ebayimg.com/images/g/pq8AAOSwOZRfGfTY/s-l640.jpg'],
   ['George Orwell', 'Animal Farm', 'https://images.bwbcovers.com/045/Animal-Farm-9780451524669.jpg'],
   ['Gregory Maguire', 'Wicked', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437733293l/37442._SY475_.jpg'],
-  ['H.G. Wells', 'The Time Machine', 'https://vignette.wikia.nocookie.net/spec-evo/images/4/45/The_Time_Machine.jpg/revision/latest/scale-to-width-down/340?cb=20140907221509'],
+  ['H.G. Wells', 'The Time Machine', 'https://lh3.googleusercontent.com/proxy/cB0keoBB7UcPOiAHD1aofrX34zj2dFBz3TcKZ6AHCYec1gkfAqbbuaEHj0Cam6KzXFyApDjacV6oUqCDk65U4juHD5HpmFgjFfJqVh7uYnXD6p14Xu1XPiWAjuJwi-w'],
   ['Henry David Thoreau', 'Walden', 'https://m.media-amazon.com/images/I/51MrMF9K4uL._SL350_.jpg'],
   ['Henry David Thoreau', 'Civil Disobedience', 'https://prodimage.images-bn.com/pimages/9783748500674_p0_v2_s550x406.jpg'],
   ['Hermann Hesse', 'Siddhartha', 'https://images.penguinrandomhouse.com/cover/9780142437186'],
