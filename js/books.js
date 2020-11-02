@@ -5,12 +5,14 @@ const books = [
   ['Aldous Huxley', 'Brave New World', 'https://images-na.ssl-images-amazon.com/images/I/41le8ej-fiL.jpg'],
   ['Amy Poehler', 'Yes Please', 'https://images-na.ssl-images-amazon.com/images/I/51JeCzV8CoL.jpg'],
   ['Amy Schumer', 'The Girl with the Lower Back Tattoo', 'https://images-na.ssl-images-amazon.com/images/I/51dbNiWeS2L._SX332_BO1,204,203,200_.jpg'],
+  ['Andry Greenberg', 'Sandworm', 'https://images-na.ssl-images-amazon.com/images/I/91IOkEUnpfL.jpg'],
   ['Anne Frank', 'The Diary of Anne Frank', 'https://images-na.ssl-images-amazon.com/images/I/51Eyjz65gyL._SX284_BO1,204,203,200_.jpg'],
   ['Antoine de Saint-Exupery', 'Le Petit Prince', 'https://images-na.ssl-images-amazon.com/images/I/51WZzUKfHnL._SX330_BO1,204,203,200_.jpg'],
   ['Art Spiegelman', 'Maus I', 'https://images-na.ssl-images-amazon.com/images/I/51R45cOV8UL._SX348_BO1,204,203,200_.jpg'],
   ['Arthur C. Clarke', '2001: A Space Odyssey', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432468943l/70535._SY475_.jpg'],
   ['Arthur Conan Doyle', 'The Adventures of Sherlock Holmes', 'https://m.media-amazon.com/images/I/51wjunNRrgL.jpg'],
   ['Arthur Conan Doyle', 'The Hounds of the Baskervilles', 'https://images1.penguinrandomhouse.com/cover/9781101098394'],
+  ['Arthur Miller', 'The Crucible', 'https://g.christianbook.com/dg/product/cbd/f450/437339.jpg'],
   ['Ashlee Vance', 'Elon Musk', 'https://images-na.ssl-images-amazon.com/images/I/5112YFsXIJL._SX330_BO1,204,203,200_.jpg'],
   ['Ayn Rand', 'The Fountainhead', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388197152l/225221.jpg'],
   ['Ayn Rand', 'Atlas Shrugged', 'https://images-na.ssl-images-amazon.com/images/I/612URtxh-qL.jpg'],
@@ -54,6 +56,7 @@ const books = [
   ['Eoin Colfer', 'Artemis Fowl 2', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388294381l/114955.jpg'],
   ['Eoin Colfer', 'Artemis Fowl 3', 'https://www.risingshadow.net/libdb/images/books/4054.jpg'],
   ['Esther Forbes', 'Johnny Tremain', 'https://images-na.ssl-images-amazon.com/images/I/519ff82b1AL._SX338_BO1,204,203,200_.jpg'],
+  ['Eva Ibbotson', 'Which Witch', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363529675l/1892773.jpg'],
   ['Evan Harris Walker', 'The Physics of Consciousness', 'https://images-na.ssl-images-amazon.com/images/I/41MWF40QK8L._SX307_BO1,204,203,200_.jpg'],
   ['F. Scott Fitzgerald', 'The Great Gatsby', 'https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg'],
   ['Franz Kafka', 'The Metamorphosis', 'https://images-na.ssl-images-amazon.com/images/I/91yukC1q-pL.jpg'],
@@ -70,6 +73,7 @@ const books = [
   ['Hermann Hesse', 'Siddhartha', 'https://images.penguinrandomhouse.com/cover/9780142437186'],
   ['Homer', 'The Iliad', 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRL2jahOoGTvAUAV1S5lYpAEF2VjftCqsPm5w&usqp=CAU'],
   ['Homer', 'The Odyssey', 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/8722/9780872204843.jpg'],
+  ['Ian Stewart', 'Nature\'s Numbers', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1208050552l/287898.jpg'],
   ['J.D. Salinger', 'The Catcher in the Rye', 'https://images-na.ssl-images-amazon.com/images/I/81OthjkJBuL.jpg'],
   ['J.K. Rowling', 'Harry Potter 1', 'https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg'],
   ['J.K. Rowling', 'Harry Potter 2', 'https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg'],
@@ -90,8 +94,12 @@ const books = [
   ['James Swain', 'Deadman\'s Poker', 'https://images-na.ssl-images-amazon.com/images/I/51knSqmFRCL._SX303_BO1,204,203,200_.jpg'],
   ['James Swain', 'Deadman\'s Bluff', 'https://images-na.ssl-images-amazon.com/images/I/51-9WNPT8gL.__BG0,0,0,0_FMpng_AC_UL600_SR366,600_.jpg'],
   ['Jean Craighead George', 'My Side of the Mountain', 'https://images-na.ssl-images-amazon.com/images/I/513C4KTMW5L.jpg'],
+  ['Jeff Abbott', 'Panic', 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Panic_%28novel%29.jpg/220px-Panic_%28novel%29.jpg'],
+  ['Jim Al-Khalili', 'Quantum', 'https://images-na.ssl-images-amazon.com/images/I/71rnrzOP7oL.jpg'],
   ['John Feinstein', 'A Good Walk Spoiled', 'https://images-na.ssl-images-amazon.com/images/I/51WTmSvDxiL._SX332_BO1,204,203,200_.jpg'],
+  ['John Grisham', 'A Painted House', 'https://nationalbookswap.com/pbs/xl/28/7228/9780440237228.jpg'],
   ['John Grisham', 'The Appeal', 'https://upload.wikimedia.org/wikipedia/en/thumb/5/56/The_Appeal_John_Grisham_Novel.JPG/220px-The_Appeal_John_Grisham_Novel.JPG'],
+  ['John Grisham', 'The Broker', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388197990l/228011.jpg'],
   ['John Le Carre', 'The Spy Who Came in from the Cold', 'https://i.ebayimg.com/images/g/XPQAAOSwTlBZ4JTc/s-l640.jpg'],
   ['John Steinbeck', 'The Pearl', 'https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-book/pearl-book-image.jpg?itok=DYYEkeLX'],
   ['Jon Krakauer', 'Into Thin Air', 'https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Into_Thin_Air.jpg/220px-Into_Thin_Air.jpg'],
@@ -128,14 +136,17 @@ const books = [
   ['Madeleine L\'Engle', 'A Wrinkle in Time', 'https://i.ebayimg.com/images/g/NOQAAOSwSlVeIAXG/s-l640.jpg'],
   ['Malcolm Gladwell', 'Outliers', 'https://images-na.ssl-images-amazon.com/images/I/41LO6QRvIuL._SX331_BO1,204,203,200_.jpg'],
   ['Malcolm Gladwell', 'David and Goliath', 'https://images-na.ssl-images-amazon.com/images/I/41H9ZCmjenL.jpg'],
+  ['Mark Manson', 'The Subtle Art of Not Giving a F*ck', 'https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg'],
   ['Mark Twain', 'Adventures of Huckleberry Finn', 'https://m.media-amazon.com/images/I/51Ug1JktPpL._SL350_.jpg'],
   ['Mary Shelley', 'Frankenstein', 'https://prod-cat-files.macmillan.cloud/MediaResources/Jackets/258W/9780312463182.jpg'],
   ['Matthew B. Crawford', 'Shop Class as Soulcraft', 'https://images-na.ssl-images-amazon.com/images/I/514FGVRnh8L._SX325_BO1,204,203,200_.jpg'],
   ['Megan Whalen Turner', 'The Thief', 'https://pictures.abebooks.com/isbn/9780140388343-us-300.jpg'],
+  ['Michael Cadnum', 'Forbidden Forest', 'https://images-na.ssl-images-amazon.com/images/I/51CHPBS1SCL._SX317_BO1,204,203,200_.jpg'],
   ['Michael Chabon', 'Summerland', 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Chabon_summerland.jpg/220px-Chabon_summerland.jpg'],
   ['Michael Crichton', 'The Andromeda Strain', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516465304l/18726080._SY475_.jpg'],
   ['Michael Crichton', 'Jurassic Park', 'https://prodimage.images-bn.com/pimages/9780345538987_p0_v2_s550x406.jpg'],
   ['Michael Crichton', 'State of Fear', 'https://images-na.ssl-images-amazon.com/images/I/71AEIuKNv2L.jpg'],
+  ['Michael Frayn', 'Copenhagen', 'https://images-na.ssl-images-amazon.com/images/I/71qWYNUbwuL.jpg'],
   ['Michio Kaku', 'Physics of the Impossible', 'https://images-na.ssl-images-amazon.com/images/I/51l28XOeOnL._SX327_BO1,204,203,200_.jpg'],
   ['Milan Kundera', 'The Unbearable Lightness of Being', 'https://images-na.ssl-images-amazon.com/images/I/415nLlgdz8L._SX337_BO1,204,203,200_.jpg'],
   ['Naguib Mahfouz', 'Akhenaten Dweller in Truth', 'https://m.media-amazon.com/images/I/414E3qKVTAL.jpg'],
@@ -155,9 +166,11 @@ const books = [
   ['Robert Louis Stevenson III', 'Torchlight', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427214506l/6966166.jpg'],
   ['Robert Ludlum', 'The Bourne Identity', 'https://i.ebayimg.com/images/g/~HEAAOSwTEteOzdB/s-l640.jpg'],
   ['Robert M. Pirsig', 'Zen and the Art of Motorcycle Maintenance', 'https://m.media-amazon.com/images/I/51y4OhDDi3L._SL350_.jpg'],
+  ['Roger Lancelyn Green', 'King Arthur', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328306152l/10190501.jpg'],
   ['Salman Rushdie', 'Haroun and the Sea of Stories', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1277683566l/471966.jpg'],
   ['Sidney W. Mintz', 'Sweetness and Power', 'https://images-na.ssl-images-amazon.com/images/I/51cpqGQ0rLL._SX325_BO1,204,203,200_.jpg'],
   ['Sophocles', 'Antigone', 'https://images-na.ssl-images-amazon.com/images/I/41LaSiewAyL._SX317_BO1,204,203,200_.jpg'],
+  ['Stephen Coonts', 'The Traitor', 'https://images-na.ssl-images-amazon.com/images/I/51IiaowuD9L.jpg'],
   ['Stephen Hawking', 'A Brief History of Time', 'https://prodimage.images-bn.com/pimages/9784871871150_p0_v1_s550x406.jpg'],
   ['Stephen Mitchell', 'The Book of Job', 'https://images-na.ssl-images-amazon.com/images/I/51BNAD8p6pL.jpg'],
   ['Stephen Pincock', 'Codebreaker', 'https://images-na.ssl-images-amazon.com/images/I/5162ubzA45L.jpg'],
@@ -165,6 +178,7 @@ const books = [
   ['Stieg Larsson', 'The Girl with the Dragon Tattoo 2', 'https://m.media-amazon.com/images/I/61PlJJX191L.jpg'],
   ['Stieg Larsson', 'The Girl with the Dragon Tattoo 3', 'https://images-na.ssl-images-amazon.com/images/I/814hdIxmkgL.jpg'],
   ['Suzanne Collins', 'The Hunger Games 1', 'https://images-na.ssl-images-amazon.com/images/I/61JfGcL2ljL.jpg'],
+  ['Tara Westover', 'Educated', 'https://images-na.ssl-images-amazon.com/images/I/81Mr22-LgbL._AC_UL320_SR210,320_.jpg'],
   ['Tom Clancy', 'Patriot Games', 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/PatriotGames.JPG/220px-PatriotGames.JPG'],
   ['Tom Clancy', 'The Sum of All Fears', 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/SOAF_movie.JPG/220px-SOAF_movie.JPG'],
   ['Tom Wolfe', 'The Electric Kool-Aid Acid Test', 'https://images-na.ssl-images-amazon.com/images/I/51UMpPPd53L._SX330_BO1,204,203,200_.jpg'],
@@ -179,19 +193,8 @@ const books = [
 
 // 15 Minutes - Gary Goldstein
 // Seals Strategic Warfare - Mike Martell
-// King Arthur - Roger Lancelyn Green
-// The Broker - John Grisham
-// A Painted House - John Grisham
-// Quantum - Jim Al-Khalili
-// Panic - Jeff Abbott
-// Nature's Numbers - Ian Stewart
-// Which Witch - Eva Ibbotson
 // Poker - David A. Daniel
 // Book of Bluffs - Matt Lessinger
 // Caro's Book of Poker Tells - Mike Caro
 // Hold 'Em Poker - Gary Carson
 // The Gambling Time Guide to Casino Games - Len Miller
-// Forbidden Forest - Michael Cadnum
-// The Traitor - Stephen Coonts
-// Copenhagen - Michael Frayn
-// The Crucible - Arthur Miller
