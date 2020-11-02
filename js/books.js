@@ -54,7 +54,7 @@ const books = [
   ['Ellen Raskin', 'The Westing Game', 'http://www.michellemach.com/blog/htmlarea/images/content/WestingGame-cover-250.jpg'],
   ['Eoin Colfer', 'Artemis Fowl 1', 'https://upload.wikimedia.org/wikipedia/en/0/07/Artemis_Fowl_first_edition_cover.jpg'],
   ['Eoin Colfer', 'Artemis Fowl 2', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388294381l/114955.jpg'],
-  ['Eoin Colfer', 'Artemis Fowl 3', 'https://www.risingshadow.net/libdb/images/books/4054.jpg'],
+  ['Eoin Colfer', 'Artemis Fowl 3', 'https://pictures.abebooks.com/isbn/9780786856282-us.jpg'],
   ['Esther Forbes', 'Johnny Tremain', 'https://images-na.ssl-images-amazon.com/images/I/519ff82b1AL._SX338_BO1,204,203,200_.jpg'],
   ['Eva Ibbotson', 'Which Witch', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363529675l/1892773.jpg'],
   ['Evan Harris Walker', 'The Physics of Consciousness', 'https://images-na.ssl-images-amazon.com/images/I/41MWF40QK8L._SX307_BO1,204,203,200_.jpg'],
