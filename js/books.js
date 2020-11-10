@@ -166,6 +166,7 @@ const books = [
   ['Robert Louis Stevenson III', 'Torchlight', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427214506l/6966166.jpg'],
   ['Robert Ludlum', 'The Bourne Identity', 'https://i.ebayimg.com/images/g/~HEAAOSwTEteOzdB/s-l640.jpg'],
   ['Robert M. Pirsig', 'Zen and the Art of Motorcycle Maintenance', 'https://m.media-amazon.com/images/I/51y4OhDDi3L._SL350_.jpg'],
+  ['Robin Diangelo', 'White Fragility', 'https://images-na.ssl-images-amazon.com/images/I/51O1xkNu14L._SX331_BO1,204,203,200_.jpg'],
   ['Roger Lancelyn Green', 'King Arthur', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328306152l/10190501.jpg'],
   ['Salman Rushdie', 'Haroun and the Sea of Stories', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1277683566l/471966.jpg'],
   ['Sidney W. Mintz', 'Sweetness and Power', 'https://images-na.ssl-images-amazon.com/images/I/51cpqGQ0rLL._SX325_BO1,204,203,200_.jpg'],
