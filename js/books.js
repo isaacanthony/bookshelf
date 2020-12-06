@@ -1,5 +1,6 @@
 const books = [
   // 2020
+  ['Blake Crouch', 'Recursion', 'https://images-na.ssl-images-amazon.com/images/I/81DloslmZOL.jpg'],
   ['Maria Konnikova', 'The Biggest Bluff', 'https://m.media-amazon.com/images/I/41-jsI5OBsL.jpg'],
   ['Richard A. Clarke and Robert K. Knake', 'The Fifth Domain', 'https://images-na.ssl-images-amazon.com/images/I/91wymXKnWSL.jpg'],
   ['Robin Diangelo', 'White Fragility', 'https://images-na.ssl-images-amazon.com/images/I/51O1xkNu14L._SX331_BO1,204,203,200_.jpg'],
