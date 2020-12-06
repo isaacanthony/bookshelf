@@ -13,8 +13,9 @@ const books = [
 
   // 2019
   ['Bill Walsh', 'The Score Takes Care of Itself', 'https://images-na.ssl-images-amazon.com/images/I/51ms1t%2B21UL._AC_SY400_.jpg'],
-  ['Jack London', 'The Call of the Wild', 'https://images-na.ssl-images-amazon.com/images/I/81+9w5nFMDL.jpg'],
+  ['Oscar Wilde', 'The Importance of Being Earnest', 'https://prodimage.images-bn.com/pimages/9781250101662_p0_v3_s550x406.jpg'],
   ['Neal Stephenson', 'Snow Crash', 'https://i.ebayimg.com/images/g/UokAAOSwIYxfA4Pp/s-l300.jpg'],
+  ['Jack London', 'The Call of the Wild', 'https://images-na.ssl-images-amazon.com/images/I/81+9w5nFMDL.jpg'],
 
   // 2018
   ['Amy Poehler', 'Yes Please', 'https://images-na.ssl-images-amazon.com/images/I/51JeCzV8CoL.jpg'],
@@ -43,38 +44,47 @@ const books = [
   ['Michael Crichton', 'Jurassic Park', 'https://prodimage.images-bn.com/pimages/9780345538987_p0_v2_s550x406.jpg'],
   ['Michael Crichton', 'State of Fear', 'https://images-na.ssl-images-amazon.com/images/I/71AEIuKNv2L.jpg'],
   ['Robert M. Pirsig', 'Zen and the Art of Motorcycle Maintenance', 'https://m.media-amazon.com/images/I/51y4OhDDi3L._SL350_.jpg'],
-  ['Ayn Rand', 'The Fountainhead', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388197152l/225221.jpg'],
   ['James Gleick', 'The Information', 'https://images-na.ssl-images-amazon.com/images/I/510E4q8npXL._SX321_BO1,204,203,200_.jpg'],
+  ['Ayn Rand', 'The Fountainhead', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388197152l/225221.jpg'],
 
-  // College
+  // Senior
   ['Suzanne Collins', 'The Hunger Games 1', 'https://images-na.ssl-images-amazon.com/images/I/61JfGcL2ljL.jpg'],
-  ['Benjamin Graham', 'The Intelligent Investor', 'https://images-na.ssl-images-amazon.com/images/I/91yj3mbz4JL.jpg'],
   ['Arthur Conan Doyle', 'The Hounds of the Baskervilles', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355929358l/8921.jpg'],
   ['Arthur Conan Doyle', 'The Adventures of Sherlock Holmes', 'https://m.media-amazon.com/images/I/51wjunNRrgL.jpg'],
   ['Ayn Rand', 'Atlas Shrugged', 'https://images-na.ssl-images-amazon.com/images/I/612URtxh-qL.jpg'],
   ['Daniel Kahneman', 'Thinking Fast and Slow', 'https://images-na.ssl-images-amazon.com/images/I/41wI53OEpCL._SX332_BO1,204,203,200_.jpg'],
-  ['Michael Frayn', 'Copenhagen', 'https://images-na.ssl-images-amazon.com/images/I/71qWYNUbwuL.jpg'],
   ['J.K. Rowling', 'Harry Potter and the Cursed Child', 'https://images-na.ssl-images-amazon.com/images/I/51NRPISnBuL._SX341_BO1,204,203,200_.jpg'],
-  ['Thomas Friedman', 'The World is Flat', 'https://images-na.ssl-images-amazon.com/images/I/415MhuA57CL._AC_SY400_.jpg'],
   ['Neal Stephenson', 'Cryptonomicon', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387758151l/19785919.jpg'],
+
+  // Junior
+  ['Michael Frayn', 'Copenhagen', 'https://images-na.ssl-images-amazon.com/images/I/71qWYNUbwuL.jpg'],
   ['Stieg Larsson', 'The Girl with the Dragon Tattoo 3', 'https://images-na.ssl-images-amazon.com/images/I/814hdIxmkgL.jpg'],
   ['Stieg Larsson', 'The Girl with the Dragon Tattoo 2', 'https://m.media-amazon.com/images/I/61PlJJX191L.jpg'],
   ['Stieg Larsson', 'The Girl with the Dragon Tattoo 1', 'https://images-na.ssl-images-amazon.com/images/I/51AA0MWoCIL._SX277_BO1,204,203,200_.jpg'],
   ['Stephen Coonts', 'The Traitor', 'https://images-na.ssl-images-amazon.com/images/I/51IiaowuD9L.jpg'],
+
+  // Sophomore
+  ['Benjamin Graham', 'The Intelligent Investor', 'https://images-na.ssl-images-amazon.com/images/I/91yj3mbz4JL.jpg'],
   ['Pamela Glintenkamp', 'Industrial Light and Magic', 'https://images-na.ssl-images-amazon.com/images/I/61oZYwPA5DL.jpg'],
-  ['Burton G. Malkiel', 'A Random Walk Down Wall Street', 'https://prodimage.images-bn.com/pimages/9780393358384_p0_v3_s1200x630.jpg'],
-  ['Derek Walcott', 'Omeros', 'https://upload.wikimedia.org/wikipedia/en/2/2a/Omerosbook.jpg'],
-  ['Robert Ludlum', 'The Bourne Identity', 'https://i.ebayimg.com/images/g/~HEAAOSwTEteOzdB/s-l640.jpg'],
-  ['James Cone', 'Black Theology and Black Power', 'https://images-na.ssl-images-amazon.com/images/I/51vh-iANb0L._SX322_BO1,204,203,200_.jpg'],
-  ['Plato', 'The Republic', 'https://pictures.abebooks.com/isbn/9780140455113-us.jpg'],
-  ['Sidney W. Mintz', 'Sweetness and Power', 'https://images-na.ssl-images-amazon.com/images/I/51cpqGQ0rLL._SX325_BO1,204,203,200_.jpg'],
   ['Cory Doctorow', 'Little Brother', 'https://images-na.ssl-images-amazon.com/images/I/41Yz41DiHvL._SX324_BO1,204,203,200_.jpg'],
+  ['Robert Ludlum', 'The Bourne Identity', 'https://i.ebayimg.com/images/g/~HEAAOSwTEteOzdB/s-l640.jpg'],
+
+  // Freshman
+  ['Burton G. Malkiel', 'A Random Walk Down Wall Street', 'https://prodimage.images-bn.com/pimages/9780393358384_p0_v3_s1200x630.jpg'],
+  ['Sebastian Mallaby', 'More Money than God', 'https://images-na.ssl-images-amazon.com/images/I/A1AYnqzQfUL.jpg'],
+  ['Thomas Friedman', 'The World is Flat', 'https://images-na.ssl-images-amazon.com/images/I/415MhuA57CL._AC_SY400_.jpg'],
+  ['Plato', 'The Republic', 'https://pictures.abebooks.com/isbn/9780140455113-us.jpg'],
+  ['James Cone', 'Black Theology and Black Power', 'https://images-na.ssl-images-amazon.com/images/I/51vh-iANb0L._SX322_BO1,204,203,200_.jpg'],
+  ['Derek Walcott', 'Omeros', 'https://upload.wikimedia.org/wikipedia/en/2/2a/Omerosbook.jpg'],
+  ['Sidney W. Mintz', 'Sweetness and Power', 'https://images-na.ssl-images-amazon.com/images/I/51cpqGQ0rLL._SX325_BO1,204,203,200_.jpg'],
 
   // Senior
+  ['Milan Kundera', 'The Unbearable Lightness of Being', 'https://images-na.ssl-images-amazon.com/images/I/415nLlgdz8L._SX337_BO1,204,203,200_.jpg'],
   ['Albert Camus', 'The Stranger', 'https://covers.openlibrary.org/b/id/8296476-L.jpg'],
 
   // Junior
   ['Alan Moore', 'Watchmen', 'https://images-na.ssl-images-amazon.com/images/I/41chVzBhJiL._SX317_BO1,204,203,200_.jpg'],
+  ['David Halberstam', 'The Fifties', 'https://images-na.ssl-images-amazon.com/images/I/51isNeJ1mHL._SX331_BO1,204,203,200_.jpg'],
   ['Agatha Christie', 'And Then There Were None', 'https://m.media-amazon.com/images/I/41l02vDN4pL.jpg'],
   ['Benjamin Hoff', 'The Tao of Pooh', 'https://images-na.ssl-images-amazon.com/images/I/41TEuYvatlL._SX363_BO1,204,203,200_.jpg'],
   ['F. Scott Fitzgerald', 'The Great Gatsby', 'https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg'],
@@ -102,7 +112,6 @@ const books = [
   ['Dan Brown', 'Digital Fortress', 'https://danbrown.com/wp-content/themes/danbrown/images/db/covers/df.jpg'],
   ['Dan Brown', 'The Da Vinci Code', 'https://vignette.wikia.nocookie.net/davincicode/images/6/6b/DaVinciCode.jpg/revision/latest/scale-to-width-down/340?cb=20081230190335'],
   ['Dan Brown', 'The Lost Symbol', 'https://images-na.ssl-images-amazon.com/images/I/91twDBBv7LL.jpg'],
-  ['David Halberstam', 'The Fifties', 'https://images-na.ssl-images-amazon.com/images/I/51isNeJ1mHL._SX331_BO1,204,203,200_.jpg'],
   ['Dennis Lewis', 'The Tao of Natural Breathing', 'https://images-na.ssl-images-amazon.com/images/I/816ppi8Vd-L.jpg'],
   ['Dickson J. Preston', 'Young Frederick Douglass', 'https://images-na.ssl-images-amazon.com/images/I/51DbFLgqClL._SX331_BO1,204,203,200_.jpg'],
   ['Douglas Adams', 'The Hitchhiker\'s Guide to the Galaxy', 'https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/6/25/1435245979235/047c9878-9845-473c-9635-5f32545746b0-1355x2040.jpeg?width=700&quality=85&auto=format&fit=max&s=606433bda33c8c27c5ebd7ba85900473'],
@@ -153,9 +162,7 @@ const books = [
   ['Mary Shelley', 'Frankenstein', 'https://prod-cat-files.macmillan.cloud/MediaResources/Jackets/258W/9780312463182.jpg'],
   ['Matthew B. Crawford', 'Shop Class as Soulcraft', 'https://images-na.ssl-images-amazon.com/images/I/514FGVRnh8L._SX325_BO1,204,203,200_.jpg'],
   ['Michio Kaku', 'Physics of the Impossible', 'https://images-na.ssl-images-amazon.com/images/I/51l28XOeOnL._SX327_BO1,204,203,200_.jpg'],
-  ['Milan Kundera', 'The Unbearable Lightness of Being', 'https://images-na.ssl-images-amazon.com/images/I/415nLlgdz8L._SX337_BO1,204,203,200_.jpg'],
   ['Naguib Mahfouz', 'Akhenaten Dweller in Truth', 'https://m.media-amazon.com/images/I/414E3qKVTAL.jpg'],
-  ['Oscar Wilde', 'The Importance of Being Earnest', 'https://prodimage.images-bn.com/pimages/9781250101662_p0_v3_s550x406.jpg'],
   ['Pierre Spierckel', 'La Farce de Maitre Pathelin', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347635739l/984624.jpg'],
   ['Rhonda Byrne', 'The Secret', 'https://i5.walmartimages.com/asr/1beb206f-6c80-4c85-840f-61e7dc2509f9_1.17a7fc26115afa2a0a671ed8914b16b1.jpeg'],
   ['Stephen Hawking', 'A Brief History of Time', 'https://prodimage.images-bn.com/pimages/9784871871150_p0_v1_s550x406.jpg'],
