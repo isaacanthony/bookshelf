@@ -1,4 +1,6 @@
 const books = [
+  ['Maria Konnikova', 'The Biggest Bluff', 'https://m.media-amazon.com/images/I/41-jsI5OBsL.jpg'],
+  ['Richard A. Clarke and Robert K. Knake', 'The Fifth Domain', 'https://images-na.ssl-images-amazon.com/images/I/91wymXKnWSL.jpg'],
   ['Agatha Christie', 'And Then There Were None', 'https://m.media-amazon.com/images/I/41l02vDN4pL.jpg'],
   ['Albert Camus', 'The Stranger', 'https://covers.openlibrary.org/b/id/8296476-L.jpg'],
   ['Alan Moore', 'Watchmen', 'https://images-na.ssl-images-amazon.com/images/I/41chVzBhJiL._SX317_BO1,204,203,200_.jpg'],
