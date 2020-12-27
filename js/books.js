@@ -1,5 +1,6 @@
 const books = [
   // 2020
+  ['Robert O\'Harrow Jr.', 'Zero Day', 'https://kbimages1-a.akamaihd.net/9af841fb-7348-469b-ad22-422be39a3e1a/353/569/90/False/zero-day-14.jpg'],
   ['Blake Crouch', 'Recursion', 'https://images-na.ssl-images-amazon.com/images/I/81DloslmZOL.jpg'],
   ['Maria Konnikova', 'The Biggest Bluff', 'https://m.media-amazon.com/images/I/41-jsI5OBsL.jpg'],
   ['Richard A. Clarke and Robert K. Knake', 'The Fifth Domain', 'https://images-na.ssl-images-amazon.com/images/I/91wymXKnWSL.jpg'],
@@ -10,6 +11,7 @@ const books = [
   ['Kai Fu Lee', 'AI Superpowers', 'https://images-na.ssl-images-amazon.com/images/I/81JjMSKLeLL.jpg'],
   ['James Redfield', 'The Celestine Prophecy', 'https://books.images.hpb.com/9780446518628/product.jpg'],
   ['Leigh Phillips and Michal Rozworski', 'People\'s Republic of Walmart', 'https://images-na.ssl-images-amazon.com/images/I/718sy5QgB6L.jpg'],
+  ['Cal Newport', 'Deep Work', 'https://images-na.ssl-images-amazon.com/images/I/41W+SUER72L._SX333_BO1,204,203,200_.jpg'],
 
   // 2019
   ['Bill Walsh', 'The Score Takes Care of Itself', 'https://images-na.ssl-images-amazon.com/images/I/51ms1t%2B21UL._AC_SY400_.jpg'],
@@ -24,6 +26,7 @@ const books = [
   ['Dan Harris', '10% Happier', 'https://images-na.ssl-images-amazon.com/images/I/41BVobaX1-L._SX330_BO1,204,203,200_.jpg'],
   ['Mark Manson', 'The Subtle Art of Not Giving a F*ck', 'https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg'],
   ['Paul Kalanithi', 'When Breath Becomes Air', 'https://images-na.ssl-images-amazon.com/images/I/81wUspzxnkL.jpg'],
+  ['Alice Schroeder', 'The Snowball', 'https://images-na.ssl-images-amazon.com/images/I/81YQhK1UiSL.jpg'],
 
   // 2017
   ['Paulo Coehlo', 'The Alchemist', 'https://images-na.ssl-images-amazon.com/images/I/41ybG235TcL._SX329_BO1,204,203,200_.jpg'],
