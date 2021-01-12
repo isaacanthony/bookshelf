@@ -1,5 +1,9 @@
 const books = [
+  // 2021
+  ['Ted Koppel', 'Lights Out', 'https://cbsnews2.cbsistatic.com/hub/i/r/2015/10/31/31bb7b95-44f4-4f6f-a7b2-c85e3aae729d/thumbnail/620x940/129d694fcce014c67d52936440191eb6/lights-out-ted-koppel-cover-244.jpg'],
+
   // 2020
+  ['Michael V. Hayden', 'The Assault on Intelligence', 'https://imgv2-2-f.scribdassets.com/img/word_document/377840590/original/f2cdf3b318/1590043338'],
   ['Robert O\'Harrow Jr.', 'Zero Day', 'https://kbimages1-a.akamaihd.net/9af841fb-7348-469b-ad22-422be39a3e1a/353/569/90/False/zero-day-14.jpg'],
   ['Blake Crouch', 'Recursion', 'https://images-na.ssl-images-amazon.com/images/I/81DloslmZOL.jpg'],
   ['Maria Konnikova', 'The Biggest Bluff', 'https://m.media-amazon.com/images/I/41-jsI5OBsL.jpg'],
@@ -16,7 +20,7 @@ const books = [
   // 2019
   ['Bill Walsh', 'The Score Takes Care of Itself', 'https://images-na.ssl-images-amazon.com/images/I/51ms1t%2B21UL._AC_SY400_.jpg'],
   ['Oscar Wilde', 'The Importance of Being Earnest', 'https://prodimage.images-bn.com/pimages/9781250101662_p0_v3_s550x406.jpg'],
-  ['Neal Stephenson', 'Snow Crash', 'https://i.ebayimg.com/images/g/UokAAOSwIYxfA4Pp/s-l300.jpg'],
+  ['Neal Stephenson', 'Snow Crash', 'https://i.insider.com/55ae79af371d2215008b83e5'],
   ['Jack London', 'The Call of the Wild', 'https://images-na.ssl-images-amazon.com/images/I/81+9w5nFMDL.jpg'],
 
   // 2018
