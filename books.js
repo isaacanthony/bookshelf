@@ -1,5 +1,8 @@
 const books = [
   // 2021
+  ['Cathy O\'Neil', 'Weapons of Math Destruction', 'https://cdn2.penguin.com.au/covers/original/9780141985411.jpg'],
+  ['Jenny Odell', 'How to Do Nothing', 'https://assets.weforum.org/editor/U4MDC0xGM9tG67sEkkGWrSfAQkojVNj_X4bx-b0J0Os.jfif'],
+  ['Frank Herbert', 'Dune', 'https://images-na.ssl-images-amazon.com/images/I/41%2B-pjts02L._SY346_.jpg'],
   ['Ted Koppel', 'Lights Out', 'https://cbsnews2.cbsistatic.com/hub/i/r/2015/10/31/31bb7b95-44f4-4f6f-a7b2-c85e3aae729d/thumbnail/620x940/129d694fcce014c67d52936440191eb6/lights-out-ted-koppel-cover-244.jpg'],
 
   // 2020
@@ -31,6 +34,7 @@ const books = [
   ['Mark Manson', 'The Subtle Art of Not Giving a F*ck', 'https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg'],
   ['Paul Kalanithi', 'When Breath Becomes Air', 'https://images-na.ssl-images-amazon.com/images/I/81wUspzxnkL.jpg'],
   ['Alice Schroeder', 'The Snowball', 'https://images-na.ssl-images-amazon.com/images/I/81YQhK1UiSL.jpg'],
+  ['Fred Lager', 'Ben and Jerry\'s: The Inside Scoop', 'http://ecx.images-amazon.com/images/I/51QhTSWPq7L._SY344_BO1,204,203,200_.jpg'],
 
   // 2017
   ['Paulo Coehlo', 'The Alchemist', 'https://images-na.ssl-images-amazon.com/images/I/41ybG235TcL._SX329_BO1,204,203,200_.jpg'],
@@ -86,6 +90,7 @@ const books = [
   ['Sidney W. Mintz', 'Sweetness and Power', 'https://images-na.ssl-images-amazon.com/images/I/51cpqGQ0rLL._SX325_BO1,204,203,200_.jpg'],
 
   // Senior
+  ['Cormac McCarthy', 'The Road', 'https://images-na.ssl-images-amazon.com/images/I/51GJCBgMhhL._SY344_BO1,204,203,200_.jpg'],
   ['Milan Kundera', 'The Unbearable Lightness of Being', 'https://images-na.ssl-images-amazon.com/images/I/415nLlgdz8L._SX337_BO1,204,203,200_.jpg'],
   ['Albert Camus', 'The Stranger', 'https://covers.openlibrary.org/b/id/8296476-L.jpg'],
 
