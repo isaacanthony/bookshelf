@@ -1,5 +1,6 @@
 const books = [
   // 2021
+  ['Malcolm Gladwell', 'Talking to Strangers', 'https://images-na.ssl-images-amazon.com/images/I/418k0VVkWYL._SY346_.jpg'],
   ['Cathy O\'Neil', 'Weapons of Math Destruction', 'https://cdn2.penguin.com.au/covers/original/9780141985411.jpg'],
   ['Jenny Odell', 'How to Do Nothing', 'https://assets.weforum.org/editor/U4MDC0xGM9tG67sEkkGWrSfAQkojVNj_X4bx-b0J0Os.jfif'],
   ['Frank Herbert', 'Dune', 'https://images-na.ssl-images-amazon.com/images/I/41%2B-pjts02L._SY346_.jpg'],
@@ -79,6 +80,7 @@ const books = [
   ['Pamela Glintenkamp', 'Industrial Light and Magic', 'https://images-na.ssl-images-amazon.com/images/I/61oZYwPA5DL.jpg'],
   ['Cory Doctorow', 'Little Brother', 'https://images-na.ssl-images-amazon.com/images/I/41Yz41DiHvL._SX324_BO1,204,203,200_.jpg'],
   ['Robert Ludlum', 'The Bourne Identity', 'https://i.ebayimg.com/images/g/~HEAAOSwTEteOzdB/s-l640.jpg'],
+  ['Orson Scott Card', 'Ender\'s Game', 'http://ecx.images-amazon.com/images/I/51BoBX-hsyL._SY344_BO1,204,203,200_.jpg'],
 
   // Freshman
   ['Burton G. Malkiel', 'A Random Walk Down Wall Street', 'https://prodimage.images-bn.com/pimages/9780393358384_p0_v3_s1200x630.jpg'],
