@@ -1,5 +1,7 @@
 const books = [
   // 2021
+  ['Neil deGrasse Tyson', 'Astrophysics for People in a Hurry', 'https://bloximages.chicago2.vip.townnews.com/emissourian.com/content/tncms/assets/v3/editorial/c/53/c53b520a-5127-11e7-9f79-cf936c315bdb/594173fbe5670.image.jpg'],
+  ['Isaac Asimov', 'Foundation', 'https://images-na.ssl-images-amazon.com/images/I/51NWJN5KHNL._SY346_.jpg'],
   ['Malcolm Gladwell', 'Talking to Strangers', 'https://images-na.ssl-images-amazon.com/images/I/418k0VVkWYL._SY346_.jpg'],
   ['Cathy O\'Neil', 'Weapons of Math Destruction', 'https://cdn2.penguin.com.au/covers/original/9780141985411.jpg'],
   ['Jenny Odell', 'How to Do Nothing', 'https://assets.weforum.org/editor/U4MDC0xGM9tG67sEkkGWrSfAQkojVNj_X4bx-b0J0Os.jfif'],
@@ -191,6 +193,7 @@ const books = [
   ['Tom Clancy', 'The Sum of All Fears', 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/SOAF_movie.JPG/220px-SOAF_movie.JPG'],
 
   // 8th
+  ['Ray Bradbury', 'Fahrenheit 451', 'http://ecx.images-amazon.com/images/I/51aEeLjGkFL._SY291_BO1,204,203,200_QL40_.jpg'],
   ['J.K. Rowling', 'Harry Potter 7', 'https://images-na.ssl-images-amazon.com/images/I/51jyI6lYi1L._SX342_BO1,204,203,200_.jpg'],
   ['Gregory Maguire', 'Wicked', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437733293l/37442._SY475_.jpg'],
   ['Salman Rushdie', 'Haroun and the Sea of Stories', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1277683566l/471966.jpg'],
