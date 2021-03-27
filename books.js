@@ -1,5 +1,7 @@
 const books = [
   // 2021
+  ['James Clear', 'Atomic Habits', 'https://img1.od-cdn.com/ImageType-400/1191-1/7AD/5ED/FA/%7B7AD5EDFA-C544-4B69-80A2-9356BB99E131%7DImg400.jpg'],
+  ['Ted Chiang', 'Exhalation', 'https://images-na.ssl-images-amazon.com/images/I/41Ps2hLq7mL._SY346_.jpg'],
   ['Neil deGrasse Tyson', 'Astrophysics for People in a Hurry', 'https://bloximages.chicago2.vip.townnews.com/emissourian.com/content/tncms/assets/v3/editorial/c/53/c53b520a-5127-11e7-9f79-cf936c315bdb/594173fbe5670.image.jpg'],
   ['Isaac Asimov', 'Foundation', 'https://images-na.ssl-images-amazon.com/images/I/51NWJN5KHNL._SY346_.jpg'],
   ['Malcolm Gladwell', 'Talking to Strangers', 'https://images-na.ssl-images-amazon.com/images/I/418k0VVkWYL._SY346_.jpg'],
@@ -36,6 +38,7 @@ const books = [
   ['Dan Harris', '10% Happier', 'https://images-na.ssl-images-amazon.com/images/I/41BVobaX1-L._SX330_BO1,204,203,200_.jpg'],
   ['Mark Manson', 'The Subtle Art of Not Giving a F*ck', 'https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg'],
   ['Paul Kalanithi', 'When Breath Becomes Air', 'https://images-na.ssl-images-amazon.com/images/I/81wUspzxnkL.jpg'],
+  ['Christopher McDougall', 'Born to Run', 'http://ecx.images-amazon.com/images/I/5117MxRQidL._SY344_BO1,204,203,200_.jpg'],
   ['Alice Schroeder', 'The Snowball', 'https://images-na.ssl-images-amazon.com/images/I/81YQhK1UiSL.jpg'],
   ['Fred Lager', 'Ben and Jerry\'s: The Inside Scoop', 'http://ecx.images-amazon.com/images/I/51QhTSWPq7L._SY344_BO1,204,203,200_.jpg'],
 
