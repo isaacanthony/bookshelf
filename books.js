@@ -1,5 +1,7 @@
 const books = [
   // 2021
+  ['Michael Lewis', 'The Premonition', 'https://images-na.ssl-images-amazon.com/images/I/41+2DiWeWAS._SY344_BO1,204,203,200_.jpg'],
+  ['Agatha Christie', 'Murder on the Orient Express', 'http://1.bp.blogspot.com/-Bkpy4C4ALoo/Vhnn8OUFgwI/AAAAAAAABfE/NDfcMSZuC2k/s1600/bookcover.jpg'],
   ['James Clear', 'Atomic Habits', 'https://img1.od-cdn.com/ImageType-400/1191-1/7AD/5ED/FA/%7B7AD5EDFA-C544-4B69-80A2-9356BB99E131%7DImg400.jpg'],
   ['Ted Chiang', 'Exhalation', 'https://images-na.ssl-images-amazon.com/images/I/41Ps2hLq7mL._SY346_.jpg'],
   ['Neil deGrasse Tyson', 'Astrophysics for People in a Hurry', 'https://bloximages.chicago2.vip.townnews.com/emissourian.com/content/tncms/assets/v3/editorial/c/53/c53b520a-5127-11e7-9f79-cf936c315bdb/594173fbe5670.image.jpg'],
@@ -46,6 +48,7 @@ const books = [
   ['Paulo Coehlo', 'The Alchemist', 'https://images-na.ssl-images-amazon.com/images/I/41ybG235TcL._SX329_BO1,204,203,200_.jpg'],
   ['Ashlee Vance', 'Elon Musk', 'https://images-na.ssl-images-amazon.com/images/I/5112YFsXIJL._SX330_BO1,204,203,200_.jpg'],
   ['Aziz Ansari', 'Modern Romance', 'https://images-na.ssl-images-amazon.com/images/I/81p047toiVL.jpg'],
+  ['Michael Lewis', 'Flash Boys', 'https://images-na.ssl-images-amazon.com/images/I/41qc0wzpBRL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg'],
 
   // 2016
   ['Dale Carnegie', 'How to Win Friends and Influence People', 'https://prodimage.images-bn.com/pimages/9780671027032_p0_v2_s1200x630.jpg'],
