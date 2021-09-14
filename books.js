@@ -1,5 +1,6 @@
 const books = [
   // 2021
+  ['Mark Cuban', 'How to Win at the Sport of Business', 'https://www.amreading.com/wp-content/uploads/mark-cuban-how-to-win-at-the-sport-of-business-600x900.jpg'],
   ['Michael Lewis', 'The Premonition', 'https://images-na.ssl-images-amazon.com/images/I/41+2DiWeWAS._SY344_BO1,204,203,200_.jpg'],
   ['Agatha Christie', 'Murder on the Orient Express', 'http://1.bp.blogspot.com/-Bkpy4C4ALoo/Vhnn8OUFgwI/AAAAAAAABfE/NDfcMSZuC2k/s1600/bookcover.jpg'],
   ['James Clear', 'Atomic Habits', 'https://img1.od-cdn.com/ImageType-400/1191-1/7AD/5ED/FA/%7B7AD5EDFA-C544-4B69-80A2-9356BB99E131%7DImg400.jpg'],
