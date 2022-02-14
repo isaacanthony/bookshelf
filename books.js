@@ -1,8 +1,15 @@
 const books = [
+  // 2022
+  ['Chris Voss', 'Never Split the Difference', 'https://images-na.ssl-images-amazon.com/images/I/51yKczFDuQL._SY346_.jpg'],
+  ['Ernest Cline', 'Ready Player Two', 'https://images-na.ssl-images-amazon.com/images/I/51YxdHStR9L._SX342_QL70_ML2_.jpg'],
+  ['Ernest Cline', 'Ready Player One', 'https://www.thegeekgeneration.com/wp-content/uploads/2012/09/Ready-Player-One-book-cover.jpg'],
+
   // 2021
+  ['Ray Dalio', 'Principles', 'https://images-na.ssl-images-amazon.com/images/I/31TNlo2p%2BPL._SY291_BO1,204,203,200_QL40_.jpg'],
   ['Mark Cuban', 'How to Win at the Sport of Business', 'https://www.amreading.com/wp-content/uploads/mark-cuban-how-to-win-at-the-sport-of-business-600x900.jpg'],
   ['Michael Lewis', 'The Premonition', 'https://images-na.ssl-images-amazon.com/images/I/41+2DiWeWAS._SY344_BO1,204,203,200_.jpg'],
   ['Agatha Christie', 'Murder on the Orient Express', 'http://1.bp.blogspot.com/-Bkpy4C4ALoo/Vhnn8OUFgwI/AAAAAAAABfE/NDfcMSZuC2k/s1600/bookcover.jpg'],
+  ['Jerry Seinfeld', 'Is This Anything?', 'https://img1.od-cdn.com/ImageType-400/5054-1/907/B16/F9/%7B907B16F9-D55C-45D9-BE36-18C136376158%7DImg400.jpg'],
   ['James Clear', 'Atomic Habits', 'https://img1.od-cdn.com/ImageType-400/1191-1/7AD/5ED/FA/%7B7AD5EDFA-C544-4B69-80A2-9356BB99E131%7DImg400.jpg'],
   ['Ted Chiang', 'Exhalation', 'https://images-na.ssl-images-amazon.com/images/I/41Ps2hLq7mL._SY346_.jpg'],
   ['Neil deGrasse Tyson', 'Astrophysics for People in a Hurry', 'https://bloximages.chicago2.vip.townnews.com/emissourian.com/content/tncms/assets/v3/editorial/c/53/c53b520a-5127-11e7-9f79-cf936c315bdb/594173fbe5670.image.jpg'],
@@ -25,6 +32,7 @@ const books = [
   ['Colson Whitehead', 'The Noble Hustle', 'https://images.penguinrandomhouse.com/cover/9780345804334'],
   ['Kai Fu Lee', 'AI Superpowers', 'https://images-na.ssl-images-amazon.com/images/I/81JjMSKLeLL.jpg'],
   ['James Redfield', 'The Celestine Prophecy', 'https://books.images.hpb.com/9780446518628/product.jpg'],
+  ['David Foster Wallace', 'A Supposedly Fun Thing I\'ll Never Do Again', 'https://images-na.ssl-images-amazon.com/images/I/51P8MZzESJL._SY291_BO1,204,203,200_QL40_.jpg'],
   ['Leigh Phillips and Michal Rozworski', 'People\'s Republic of Walmart', 'https://images-na.ssl-images-amazon.com/images/I/718sy5QgB6L.jpg'],
   ['Cal Newport', 'Deep Work', 'https://images-na.ssl-images-amazon.com/images/I/41W+SUER72L._SX333_BO1,204,203,200_.jpg'],
 
