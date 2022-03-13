@@ -1,6 +1,11 @@
 const books = [
   // 2022
+  ['Joel Greenblatt', 'The Little Book that Beats the Market', 'https://tradebrains.in/wp-content/uploads/2018/08/the-little-book-that-beats-the-market-Joel-Greenblatt-714x1024.jpg'],
+  ['Laurence J. Kotlikoff', 'Money Magic', 'https://www.hachettebookgroup.com/wp-content/uploads/2021/07/9780316541879-1.jpg'],
+  ['Thomas J. Stanley and Sarah Stanley Fallaw', 'The Next Millionaire Next Door', 'https://i.pinimg.com/736x/1a/d2/5e/1ad25e86f014b083dbcc746abb9c700b.jpg'],
+  ['Robert T. Kiyosaki', 'Rich Dad Poor Dad', 'http://prodimage.images-bn.com/pimages/9781612680194_p0_v2_s1200x630.jpg'],
   ['Chris Voss', 'Never Split the Difference', 'https://images-na.ssl-images-amazon.com/images/I/51yKczFDuQL._SY346_.jpg'],
+  ['John Doerr', 'Measure What Matters', 'https://img1.od-cdn.com/ImageType-400/1523-1/9ED/EB4/E7/%7B9EDEB4E7-DAAA-46D6-9CB6-1509E3FB9481%7DImg400.jpg'],
   ['Ernest Cline', 'Ready Player Two', 'https://images-na.ssl-images-amazon.com/images/I/51YxdHStR9L._SX342_QL70_ML2_.jpg'],
   ['Ernest Cline', 'Ready Player One', 'https://www.thegeekgeneration.com/wp-content/uploads/2012/09/Ready-Player-One-book-cover.jpg'],
 
@@ -8,6 +13,7 @@ const books = [
   ['Ray Dalio', 'Principles', 'https://images-na.ssl-images-amazon.com/images/I/31TNlo2p%2BPL._SY291_BO1,204,203,200_QL40_.jpg'],
   ['Mark Cuban', 'How to Win at the Sport of Business', 'https://www.amreading.com/wp-content/uploads/mark-cuban-how-to-win-at-the-sport-of-business-600x900.jpg'],
   ['Michael Lewis', 'The Premonition', 'https://images-na.ssl-images-amazon.com/images/I/41+2DiWeWAS._SY344_BO1,204,203,200_.jpg'],
+  ['Tim Ferriss', 'The 4-Hour Workweek', 'https://imgv2-1-f.scribdassets.com/img/document/24143728/original/c00cd8fa99/1614747336'],
   ['Agatha Christie', 'Murder on the Orient Express', 'http://1.bp.blogspot.com/-Bkpy4C4ALoo/Vhnn8OUFgwI/AAAAAAAABfE/NDfcMSZuC2k/s1600/bookcover.jpg'],
   ['Jerry Seinfeld', 'Is This Anything?', 'https://img1.od-cdn.com/ImageType-400/5054-1/907/B16/F9/%7B907B16F9-D55C-45D9-BE36-18C136376158%7DImg400.jpg'],
   ['James Clear', 'Atomic Habits', 'https://img1.od-cdn.com/ImageType-400/1191-1/7AD/5ED/FA/%7B7AD5EDFA-C544-4B69-80A2-9356BB99E131%7DImg400.jpg'],
@@ -217,7 +223,7 @@ const books = [
 
   // 7th
   ['Elie Wiesel', 'Night', 'https://i.ebayimg.com/images/g/YMkAAOSwIjJZO~rP/s-l600.jpg'],
-  ['Ellen Raskin', 'The Westing Game', 'http://www.michellemach.com/blog/htmlarea/images/content/WestingGame-cover-250.jpg'],
+  ['Ellen Raskin', 'The Westing Game', 'https://i.ebayimg.com/images/g/58gAAOSwDtVaozgI/s-l400.jpg'],
   ['Eoin Colfer', 'Artemis Fowl 3', 'https://pictures.abebooks.com/isbn/9780786856282-us.jpg'],
   ['Eoin Colfer', 'Artemis Fowl 2', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388294381l/114955.jpg'],
   ['Eoin Colfer', 'Artemis Fowl 1', 'https://upload.wikimedia.org/wikipedia/en/0/07/Artemis_Fowl_first_edition_cover.jpg'],
@@ -250,7 +256,7 @@ const books = [
   ['George Orwell', 'Animal Farm', 'https://images.bwbcovers.com/045/Animal-Farm-9780451524669.jpg'],
   ['J.R.R. Tolkien', 'The Hobbit', 'https://images-na.ssl-images-amazon.com/images/I/51e5yIs332L._SX284_BO1,204,203,200_.jpg'],
   ['Jean Craighead George', 'My Side of the Mountain', 'https://images-na.ssl-images-amazon.com/images/I/513C4KTMW5L.jpg'],
-  ['John Steinbeck', 'The Pearl', 'https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-book/pearl-book-image.jpg?itok=DYYEkeLX'],
+  ['John Steinbeck', 'The Pearl', 'https://covers.openlibrary.org/w/id/96842-M.jpg'],
   ['Louis Sachar', 'Holes', 'https://upload.wikimedia.org/wikipedia/en/c/c3/Sachar_-_Holes_Coverart.png'],
   ['Wilson Rawls', 'Where the Red Fern Grows', 'https://images-na.ssl-images-amazon.com/images/I/51W5dPzWHvL._SX314_BO1,204,203,200_.jpg'],
   ['Theodore Taylor', 'The Cay', 'https://images-na.ssl-images-amazon.com/images/I/519481T83DL.jpg'],
