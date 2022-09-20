@@ -1,5 +1,16 @@
 const books = [
   // 2022
+  ['Lucy Foley', 'The Guest List', 'https://img1.od-cdn.com/ImageType-400/0293-1/D96/84F/1E/%7BD9684F1E-4DDE-48A8-AF26-514500383AB2%7DImg400.jpg'],
+  ['Morgan Housel', 'The Psychology of Money', 'https://images-na.ssl-images-amazon.com/images/I/81Lb75rUhLL.jpg'],
+  ['Matt Haig', 'The Midnight Library', 'https://media.npr.org/assets/img/2020/09/30/815-u8gacyl_custom-56b93f54c3bde063acf1f74a343642b8c77c57c3-s1400.jpg'],
+  ['Sam Harris', 'Waking Up', 'https://images-na.ssl-images-amazon.com/images/I/51zPJJLSdjL._SX218_BO1,204,203,200_QL40_.jpg'],
+  ['Joel Greenblatt', 'The Big Secret for the Small Investor', 'https://m.media-amazon.com/images/I/41qKVROepZL._SY346_.jpg'],
+  ['James Nestor', 'Breath', 'https://images-na.ssl-images-amazon.com/images/I/41Ma7EMWAFL._SY291_BO1,204,203,200_QL40_ML2_.jpg'],
+  ['Dave Ramsey', 'The Total Money Makeover', 'http://ecx.images-amazon.com/images/I/517LV72u4VL._SX258_BO1,204,203,200_.jpg'],
+  ['Tim Ferriss', 'The 4-Hour Body', 'https://images-na.ssl-images-amazon.com/images/I/41uhhlljFVL._SY291_BO1,204,203,200_QL40_ML2_.jpg'],
+  ['Daniel R. Solin', 'The Smartest Investment Book You\'ll Ever Read', 'https://images-na.ssl-images-amazon.com/images/I/51R1sNeYiML._SY291_BO1,204,203,200_QL40_.jpg'],
+  ['Marshall B. Rosenberg', 'Nonviolent Communication', 'https://images-na.ssl-images-amazon.com/images/I/717nMjlSiGL.jpg'],
+  ['Laura Dave', 'The Last Thing He Told Me', 'https://images-na.ssl-images-amazon.com/images/I/51jGCVhxUML._SY445_QL70_ML2_.jpg'],
   ['Joel Greenblatt', 'The Little Book that Beats the Market', 'https://tradebrains.in/wp-content/uploads/2018/08/the-little-book-that-beats-the-market-Joel-Greenblatt-714x1024.jpg'],
   ['Laurence J. Kotlikoff', 'Money Magic', 'https://www.hachettebookgroup.com/wp-content/uploads/2021/07/9780316541879-1.jpg'],
   ['Thomas J. Stanley and Sarah Stanley Fallaw', 'The Next Millionaire Next Door', 'https://i.pinimg.com/736x/1a/d2/5e/1ad25e86f014b083dbcc746abb9c700b.jpg'],
@@ -8,6 +19,7 @@ const books = [
   ['John Doerr', 'Measure What Matters', 'https://img1.od-cdn.com/ImageType-400/1523-1/9ED/EB4/E7/%7B9EDEB4E7-DAAA-46D6-9CB6-1509E3FB9481%7DImg400.jpg'],
   ['Ernest Cline', 'Ready Player Two', 'https://images-na.ssl-images-amazon.com/images/I/51YxdHStR9L._SX342_QL70_ML2_.jpg'],
   ['Ernest Cline', 'Ready Player One', 'https://www.thegeekgeneration.com/wp-content/uploads/2012/09/Ready-Player-One-book-cover.jpg'],
+  ['', '', 'https://via.placeholder.com/150x250.png?text=2022'],
 
   // 2021
   ['Ray Dalio', 'Principles', 'https://images-na.ssl-images-amazon.com/images/I/31TNlo2p%2BPL._SY291_BO1,204,203,200_QL40_.jpg'],
@@ -25,6 +37,7 @@ const books = [
   ['Jenny Odell', 'How to Do Nothing', 'https://assets.weforum.org/editor/U4MDC0xGM9tG67sEkkGWrSfAQkojVNj_X4bx-b0J0Os.jfif'],
   ['Frank Herbert', 'Dune', 'https://images-na.ssl-images-amazon.com/images/I/41%2B-pjts02L._SY346_.jpg'],
   ['Ted Koppel', 'Lights Out', 'https://cbsnews2.cbsistatic.com/hub/i/r/2015/10/31/31bb7b95-44f4-4f6f-a7b2-c85e3aae729d/thumbnail/620x940/129d694fcce014c67d52936440191eb6/lights-out-ted-koppel-cover-244.jpg'],
+  ['', '', 'https://via.placeholder.com/150x250.png?text=2021'],
 
   // 2020
   ['Michael V. Hayden', 'The Assault on Intelligence', 'https://imgv2-2-f.scribdassets.com/img/word_document/377840590/original/f2cdf3b318/1590043338'],
@@ -41,12 +54,14 @@ const books = [
   ['David Foster Wallace', 'A Supposedly Fun Thing I\'ll Never Do Again', 'https://images-na.ssl-images-amazon.com/images/I/51P8MZzESJL._SY291_BO1,204,203,200_QL40_.jpg'],
   ['Leigh Phillips and Michal Rozworski', 'People\'s Republic of Walmart', 'https://images-na.ssl-images-amazon.com/images/I/718sy5QgB6L.jpg'],
   ['Cal Newport', 'Deep Work', 'https://images-na.ssl-images-amazon.com/images/I/41W+SUER72L._SX333_BO1,204,203,200_.jpg'],
+  ['', '', 'https://via.placeholder.com/150x250.png?text=2020'],
 
   // 2019
   ['Bill Walsh', 'The Score Takes Care of Itself', 'https://images-na.ssl-images-amazon.com/images/I/51ms1t%2B21UL._AC_SY400_.jpg'],
   ['Oscar Wilde', 'The Importance of Being Earnest', 'https://prodimage.images-bn.com/pimages/9781250101662_p0_v3_s550x406.jpg'],
   ['Neal Stephenson', 'Snow Crash', 'https://i.insider.com/55ae79af371d2215008b83e5'],
   ['Jack London', 'The Call of the Wild', 'https://images-na.ssl-images-amazon.com/images/I/81+9w5nFMDL.jpg'],
+  ['', '', 'https://via.placeholder.com/150x250.png?text=2019'],
 
   // 2018
   ['Amy Poehler', 'Yes Please', 'https://images-na.ssl-images-amazon.com/images/I/51JeCzV8CoL.jpg'],
@@ -58,18 +73,21 @@ const books = [
   ['Christopher McDougall', 'Born to Run', 'http://ecx.images-amazon.com/images/I/5117MxRQidL._SY344_BO1,204,203,200_.jpg'],
   ['Alice Schroeder', 'The Snowball', 'https://images-na.ssl-images-amazon.com/images/I/81YQhK1UiSL.jpg'],
   ['Fred Lager', 'Ben and Jerry\'s: The Inside Scoop', 'http://ecx.images-amazon.com/images/I/51QhTSWPq7L._SY344_BO1,204,203,200_.jpg'],
+  ['', '', 'https://via.placeholder.com/150x250.png?text=2018'],
 
   // 2017
   ['Paulo Coehlo', 'The Alchemist', 'https://images-na.ssl-images-amazon.com/images/I/41ybG235TcL._SX329_BO1,204,203,200_.jpg'],
   ['Ashlee Vance', 'Elon Musk', 'https://images-na.ssl-images-amazon.com/images/I/5112YFsXIJL._SX330_BO1,204,203,200_.jpg'],
   ['Aziz Ansari', 'Modern Romance', 'https://images-na.ssl-images-amazon.com/images/I/81p047toiVL.jpg'],
   ['Michael Lewis', 'Flash Boys', 'https://images-na.ssl-images-amazon.com/images/I/41qc0wzpBRL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg'],
+  ['', '', 'https://via.placeholder.com/150x250.png?text=2017'],
 
   // 2016
   ['Dale Carnegie', 'How to Win Friends and Influence People', 'https://prodimage.images-bn.com/pimages/9780671027032_p0_v2_s1200x630.jpg'],
   ['Malcolm Gladwell', 'David and Goliath', 'https://images-na.ssl-images-amazon.com/images/I/41H9ZCmjenL.jpg'],
   ['Robert Louis Stevenson III', 'Torchlight', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427214506l/6966166.jpg'],
   ['John Le Carre', 'The Spy Who Came in from the Cold', 'https://i.ebayimg.com/images/g/XPQAAOSwTlBZ4JTc/s-l640.jpg'],
+  ['', '', 'https://via.placeholder.com/150x250.png?text=2016'],
 
   // 2015
   ['Benjamin Franklin', 'The Autobiography of Benjamin Franklin', 'https://images-na.ssl-images-amazon.com/images/I/51qI-RdE-8L._SX384_BO1,204,203,200_.jpg'],
@@ -81,6 +99,7 @@ const books = [
   ['Robert M. Pirsig', 'Zen and the Art of Motorcycle Maintenance', 'https://m.media-amazon.com/images/I/51y4OhDDi3L._SL350_.jpg'],
   ['James Gleick', 'The Information', 'https://images-na.ssl-images-amazon.com/images/I/510E4q8npXL._SX321_BO1,204,203,200_.jpg'],
   ['Ayn Rand', 'The Fountainhead', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388197152l/225221.jpg'],
+  ['', '', 'https://via.placeholder.com/150x250.png?text=2015'],
 
   // Senior
   ['Suzanne Collins', 'The Hunger Games 1', 'https://images-na.ssl-images-amazon.com/images/I/61JfGcL2ljL.jpg'],
@@ -270,6 +289,9 @@ const books = [
   ['Roald Dahl', 'Danny the Champion of the World', 'https://images-na.ssl-images-amazon.com/images/I/91oa7T-wJ+L.jpg'],
   ['Eva Ibbotson', 'Which Witch', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363529675l/1892773.jpg'],
   ['Kenneth Thomasma', 'Pathki Nana', 'https://m.media-amazon.com/images/I/51G+884uijL.jpg'],
+
+  // Kindergarden
+  ['Marcus Pfister', 'The Rainbow Fish', 'https://i.pinimg.com/originals/30/12/05/3012057476d72702cd1ca94d86f1d6ab.jpg'],
 ];
 
 // 15 Minutes - Gary Goldstein
