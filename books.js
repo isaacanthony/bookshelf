@@ -1,5 +1,13 @@
 const books = [
   // 2023
+  ['Stephen King', 'On Writing', 'https://m.media-amazon.com/images/I/41moxH+paOL._SX322_BO1,204,203,200_.jpg'],
+  ['Ben McKenzie', 'Easy Money', 'https://m.media-amazon.com/images/P/B0B8F2TJ67.01._SCLZZZZZZZ_SX500_.jpg'],
+  ['Spencer Jakab', 'The Revolution that Wasn\'t', 'https://m.media-amazon.com/images/P/0593421159.01._SCLZZZZZZZ_SX500_.jpg'],
+  ['Brendan Ballou', 'Plunder', 'https://m.media-amazon.com/images/P/B0BH4XK8WG.01._SCLZZZZZZZ_SX500_.jpg'],
+  ['Seoyoung Kim', 'DeFi for Dummies', 'https://m.media-amazon.com/images/P/1119906806.01._SCLZZZZZZZ_SX500_.jpg'],
+  ['Scott Patterson', 'Chaos Kings', 'https://m.media-amazon.com/images/P/1982179937.01._SCLZZZZZZZ_SX500_.jpg'],
+  ['Gabrielle Zevin', 'Tomorrow and Tomorrow and Tomorrow', 'https://m.media-amazon.com/images/P/0593321200.01._SCLZZZZZZZ_SX500_.jpg'],
+  ['Chris Miller', 'Chip War', 'https://m.media-amazon.com/images/P/1982172002.01._SCLZZZZZZZ_SX500_.jpg'],
   ['Delia Owens', 'Where the Crawdads Sing', 'https://m.media-amazon.com/images/I/81O1oy0y9eL._SL1500_.jpg'],
   ['David Lipsky', 'Although of Course You End Up Becoming Yourself', 'https://m.media-amazon.com/images/I/91DOZhE2ykL._SL1500_.jpg'],
   ['Cixin Liu', 'The Three Body Problem', 'https://m.media-amazon.com/images/I/919XM42JQlL._SL1500_.jpg'],
