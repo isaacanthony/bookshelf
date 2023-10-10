@@ -1,5 +1,12 @@
 const books = [
   // 2023
+  ['Phil Knight', 'Shoe Dog', 'https://m.media-amazon.com/images/I/71U49T+hOTL._SL1500_.jpg'],
+  ['Sarah Knight', 'The Life-Changing Magic of Not Giving a F*ck', 'https://m.media-amazon.com/images/I/71BVhEKJQHL._SL1500_.jpg'],
+  ['Walt Bogdanich and Michael Forsythe', 'When McKinsey Comes to Town', 'https://m.media-amazon.com/images/I/81cguUpyMNL._SL1500_.jpg'],
+  ['James Dale Davidson and William Rees-Mogg', 'The Sovereign Individual', 'https://m.media-amazon.com/images/I/71jWIKyzPdL._SL1500_.jpg'],
+  ['Agatha Christie', 'The Mysterious Affair at Styles', 'https://m.media-amazon.com/images/I/61TsrRFFzqL._SL1500_.jpg'],
+  ['Jeff Goodell', 'The Heat Will Kill You First', 'https://m.media-amazon.com/images/I/81q78Lr-tZL._SL1500_.jpg'],
+  ['Bessel Van Der Kolk', 'The Body Keeps the Score', 'https://m.media-amazon.com/images/I/71bVExi4yXL._SL1500_.jpg'],
   ['Stephen King', 'On Writing', 'https://m.media-amazon.com/images/I/41moxH+paOL._SX322_BO1,204,203,200_.jpg'],
   ['Ben McKenzie', 'Easy Money', 'https://m.media-amazon.com/images/P/B0B8F2TJ67.01._SCLZZZZZZZ_SX500_.jpg'],
   ['Spencer Jakab', 'The Revolution that Wasn\'t', 'https://m.media-amazon.com/images/P/0593421159.01._SCLZZZZZZZ_SX500_.jpg'],
