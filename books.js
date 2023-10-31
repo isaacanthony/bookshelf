@@ -1,5 +1,14 @@
 const books = [
   // 2023
+  ['Andy Greenberg', 'Tracers in the Dark', 'https://m.media-amazon.com/images/I/71ifCS8ZjLL._SL1500_.jpg'],
+  ['Alex Michaelides', 'The Maidens', 'https://m.media-amazon.com/images/I/81K05pTbJUL._SL1500_.jpg'],
+  ['Alex Michaelides', 'The Silent Patient', 'https://m.media-amazon.com/images/I/91BbLCJOruL._SL1500_.jpg'],
+  ['Walter Isaacson', 'Steve Jobs', 'https://m.media-amazon.com/images/I/41LoxHUtzdL.jpg'],
+  ['Thich Nhat Hanh', 'Happiness', 'https://m.media-amazon.com/images/I/61Q9LZGL95L._SL1500_.jpg'],
+  ['Rick Rubin', 'The Creative Act', 'https://m.media-amazon.com/images/I/A1YhM3oRFbL._SL1500_.jpg'],
+  ['Amanda Montell', 'Cultish', 'https://m.media-amazon.com/images/I/81eBrooSvgL._SL1500_.jpg'],
+  ['Annie Duke', 'Thinking in Bets', 'https://m.media-amazon.com/images/I/71mwPqoSf8L._SL1500_.jpg'],
+  ['Hector Garcia and Francesc Miralles', 'Ikigai', 'https://m.media-amazon.com/images/I/71B-7twlcFL._SL1500_.jpg'],
   ['Phil Knight', 'Shoe Dog', 'https://m.media-amazon.com/images/I/71U49T+hOTL._SL1500_.jpg'],
   ['Sarah Knight', 'The Life-Changing Magic of Not Giving a F*ck', 'https://m.media-amazon.com/images/I/71BVhEKJQHL._SL1500_.jpg'],
   ['Walt Bogdanich and Michael Forsythe', 'When McKinsey Comes to Town', 'https://m.media-amazon.com/images/I/81cguUpyMNL._SL1500_.jpg'],
