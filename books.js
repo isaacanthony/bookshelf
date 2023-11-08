@@ -1,5 +1,11 @@
 const books = [
   // 2023
+  ['Robert Wright', 'Why Buddhism is True', 'https://m.media-amazon.com/images/I/61erRuTfQaL._SL1360_.jpg'],
+  ['Billy Walters', 'Gambler', 'https://m.media-amazon.com/images/I/71fbj4wU7RL._SL1500_.jpg'],
+  ['Michael Lewis', 'Moneyball', 'https://m.media-amazon.com/images/I/61M8k4a4LAL._SL1203_.jpg'],
+  ['Napoleon Hill', 'Think and Grow Rich', 'https://m.media-amazon.com/images/I/71UypkUjStL._SL1000_.jpg'],
+  ['Tripp Mickle', 'After Steve', 'https://m.media-amazon.com/images/I/A13y4ZLEh9L._SL1500_.jpg'],
+  ['Anna Wiener', 'Uncanny Valley', 'https://m.media-amazon.com/images/I/71be5kC86OL._SL1500_.jpg'],
   ['Andy Greenberg', 'Tracers in the Dark', 'https://m.media-amazon.com/images/I/71ifCS8ZjLL._SL1500_.jpg'],
   ['Alex Michaelides', 'The Maidens', 'https://m.media-amazon.com/images/I/81K05pTbJUL._SL1500_.jpg'],
   ['Alex Michaelides', 'The Silent Patient', 'https://m.media-amazon.com/images/I/91BbLCJOruL._SL1500_.jpg'],
