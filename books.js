@@ -98,7 +98,7 @@ const books = [
 
   // 2020
   ['Michael V. Hayden', 'The Assault on Intelligence', 'https://imgv2-2-f.scribdassets.com/img/word_document/377840590/original/f2cdf3b318/1590043338'],
-  ['Robert O\'Harrow Jr.', 'Zero Day', 'https://kbimages1-a.akamaihd.net/9af841fb-7348-469b-ad22-422be39a3e1a/353/569/90/False/zero-day-14.jpg'],
+  ['Robert O\'Harrow Jr.', 'Zero Day', 'https://m.media-amazon.com/images/I/81mEUS0yEGL._SL1350_.jpg'],
   ['Blake Crouch', 'Recursion', 'https://images-na.ssl-images-amazon.com/images/I/81DloslmZOL.jpg'],
   ['Maria Konnikova', 'The Biggest Bluff', 'https://m.media-amazon.com/images/I/41-jsI5OBsL.jpg'],
   ['Richard A. Clarke and Robert K. Knake', 'The Fifth Domain', 'https://images-na.ssl-images-amazon.com/images/I/91wymXKnWSL.jpg'],
@@ -107,7 +107,7 @@ const books = [
   ['Tara Westover', 'Educated', 'https://images-na.ssl-images-amazon.com/images/I/81Mr22-LgbL._AC_UL320_SR210,320_.jpg'],
   ['Colson Whitehead', 'The Noble Hustle', 'https://images.penguinrandomhouse.com/cover/9780345804334'],
   ['Kai Fu Lee', 'AI Superpowers', 'https://images-na.ssl-images-amazon.com/images/I/81JjMSKLeLL.jpg'],
-  ['James Redfield', 'The Celestine Prophecy', 'https://books.images.hpb.com/9780446518628/product.jpg'],
+  ['James Redfield', 'The Celestine Prophecy', 'https://m.media-amazon.com/images/I/61UZ6nd2UZL._SL1029_.jpg'],
   ['David Foster Wallace', 'A Supposedly Fun Thing I\'ll Never Do Again', 'https://images-na.ssl-images-amazon.com/images/I/51P8MZzESJL._SY291_BO1,204,203,200_QL40_.jpg'],
   ['Leigh Phillips and Michal Rozworski', 'People\'s Republic of Walmart', 'https://images-na.ssl-images-amazon.com/images/I/718sy5QgB6L.jpg'],
   ['Cal Newport', 'Deep Work', 'https://images-na.ssl-images-amazon.com/images/I/41W+SUER72L._SX333_BO1,204,203,200_.jpg'],
@@ -213,7 +213,7 @@ const books = [
   ['Bernard Cornwell', 'The Winter King', 'https://i.pinimg.com/originals/42/1f/c4/421fc436bd8960b4ce036eed6f0dd7e2.jpg'],
   ['Brian Greene', 'The Fabric of the Cosmos', 'https://images-na.ssl-images-amazon.com/images/I/81eOaTPxsYL.jpg'],
   ['Brian Greene', 'The Elegant Universe', 'https://images-na.ssl-images-amazon.com/images/I/51g2zhYLXCL._SX325_BO1,204,203,200_.jpg'],
-  ['Homer', 'The Odyssey', 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/8722/9780872204843.jpg'],
+  ['Homer', 'The Odyssey', 'https://m.media-amazon.com/images/I/819IxwjBa9L._SL1500_.jpg'],
   ['Unknown', 'Beowulf', 'https://images-na.ssl-images-amazon.com/images/I/51Jb3341SZL._SX325_BO1,204,203,200_.jpg'],
 
   ['Art Spiegelman', 'Maus I', 'https://images-na.ssl-images-amazon.com/images/I/51R45cOV8UL._SX348_BO1,204,203,200_.jpg'],
