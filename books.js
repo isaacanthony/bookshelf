@@ -1,5 +1,10 @@
 const books = [
   // 2023
+  ['Michael Lewis', 'Going Infinite', 'https://m.media-amazon.com/images/I/81K3QWid8AL._SL1500_.jpg'],
+  ['Walter Isaacson', 'Elon Musk', 'https://m.media-amazon.com/images/I/814mI0-rkxL._SL1500_.jpg'],
+  ['Celeste Headlee', 'Do Nothing', 'https://m.media-amazon.com/images/I/814Po0LupzL._SL1500_.jpg'],
+  ['Ichiro Kishimi and Fumitake Koga', 'The Courage to be Disliked', 'https://m.media-amazon.com/images/I/61-8j1rtdOL._SL1500_.jpg'],
+  ['Madeline Miller', 'The Song of Achilles', 'https://m.media-amazon.com/images/I/91CRHP+EZnL._SL1500_.jpg'],
   ['Robert Wright', 'Why Buddhism is True', 'https://m.media-amazon.com/images/I/61erRuTfQaL._SL1360_.jpg'],
   ['Billy Walters', 'Gambler', 'https://m.media-amazon.com/images/I/71fbj4wU7RL._SL1500_.jpg'],
   ['Michael Lewis', 'Moneyball', 'https://m.media-amazon.com/images/I/61M8k4a4LAL._SL1203_.jpg'],
