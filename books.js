@@ -1,5 +1,12 @@
 const books = [
+  // 2024
+  ['', '', 'https://via.placeholder.com/150x250.png?text=2024'],
+
   // 2023
+  ['Matthew Ball', 'The Metaverse', 'https://m.media-amazon.com/images/I/61stJc6UJTL._SL1000_.jpg'],
+  ['Morgan Housel', 'Same as Ever', 'https://m.media-amazon.com/images/I/71znMAUESWL._SL1500_.jpg'],
+  ['Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher', 'The Age of AI', 'https://m.media-amazon.com/images/I/71zaLrygEQL._SL1500_.jpg'],
+  ['Johann Hari', 'Stolen Focus', 'https://m.media-amazon.com/images/I/71Y85lJdsHL._SL1500_.jpg'],
   ['Michael Lewis', 'Going Infinite', 'https://m.media-amazon.com/images/I/81K3QWid8AL._SL1500_.jpg'],
   ['Walter Isaacson', 'Elon Musk', 'https://m.media-amazon.com/images/I/814mI0-rkxL._SL1500_.jpg'],
   ['Celeste Headlee', 'Do Nothing', 'https://m.media-amazon.com/images/I/814Po0LupzL._SL1500_.jpg'],
