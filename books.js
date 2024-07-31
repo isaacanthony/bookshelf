@@ -1,5 +1,18 @@
 const books = [
   // 2024
+  ['Michael Lewis', 'The Big Short', 'https://m.media-amazon.com/images/I/61zxK7YunhL._SL1200_.jpg'],
+  ['Nassim Nicholas Taleb', 'The Black Swan', 'https://m.media-amazon.com/images/I/51jkBbZzJVL._SL1200_.jpg'],
+  ['Alex Michaelides', 'The Fury', 'https://m.media-amazon.com/images/I/81Lxz1onxEL._SL1500_.jpg'],
+  ['Jonathan Haidt', 'The Anxious Generation', 'https://m.media-amazon.com/images/I/81XP4hEXDXL._SL1500_.jpg'],
+  ['Kara Swisher', 'Burn Book', 'https://m.media-amazon.com/images/I/81cKLC7sqbL._SL1500_.jpg'],
+  ['Theodore Corbett', 'Revolutionary Chestertown', 'https://m.media-amazon.com/images/I/71Ni7hMhA+L._SL1360_.jpg'],
+  ['David Brennan', 'Annapolis: Capital Gateway to Maryland', 'https://m.media-amazon.com/images/I/71gvmu51m2L._SL1360_.jpg'],
+  ['Jorge Contreras', 'The Genome Defense', 'https://m.media-amazon.com/images/I/71G2f0LMKOL._SL1500_.jpg'],
+  ['Nassim Nicholas Taleb', 'Fooled by Randomness', 'https://m.media-amazon.com/images/I/61JpdiAU31L._SL1200_.jpg'],
+  ['Chris Dixon', 'Read, Write, Own', 'https://m.media-amazon.com/images/I/71BIdLFcvpL._SL1500_.jpg'],
+  ['Ted Chiang', 'Stories of Your Life and Others', 'https://m.media-amazon.com/images/I/71ZRRZShcGL._SL1200_.jpg'],
+  ['Bill Perkins', 'Die with Zero', 'https://m.media-amazon.com/images/I/61+4EHZ4faL._SL1500_.jpg'],
+  ['Mustafa Suleyman', 'The Coming Wave', 'https://m.media-amazon.com/images/I/81zQiMu4A5L._SL1500_.jpg'],
   ['', '', 'https://via.placeholder.com/150x250.png?text=2024'],
 
   // 2023
