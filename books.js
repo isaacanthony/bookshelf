@@ -1,5 +1,10 @@
 const books = [
   // 2024
+  ['Cal Newport', 'Slow Productivity', 'https://m.media-amazon.com/images/I/91rxxzTG9bL._SL1500_.jpg'],
+  ['Rebecca Yarros', 'Iron Flame', 'https://m.media-amazon.com/images/I/91vTsJScPSL._SL1500_.jpg'],
+  ['Rebecca Yarros', 'Fourth Wing', 'https://m.media-amazon.com/images/I/914HWd0RxsL._SL1500_.jpg'],
+  ['Zoe Schiffer', 'Extremely Hardcore', 'https://m.media-amazon.com/images/I/81j7L3lWaQL._SL1500_.jpg'],
+  ['Charlie Munger', 'Poor Charlie\'s Almanack', 'https://m.media-amazon.com/images/I/81vgkcr86iL._SL1500_.jpg'],
   ['Michael Lewis', 'The Big Short', 'https://m.media-amazon.com/images/I/61zxK7YunhL._SL1200_.jpg'],
   ['Nassim Nicholas Taleb', 'The Black Swan', 'https://m.media-amazon.com/images/I/51jkBbZzJVL._SL1200_.jpg'],
   ['Alex Michaelides', 'The Fury', 'https://m.media-amazon.com/images/I/81Lxz1onxEL._SL1500_.jpg'],
