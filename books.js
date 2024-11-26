@@ -1,5 +1,17 @@
 const books = [
   // 2024
+  ['Tony Robbins', 'The Holy Grail of Investing', 'https://m.media-amazon.com/images/I/71YS9x+zMhL._SL1500_.jpg'],
+  ['Greg McKeown', 'Essentialism', 'https://m.media-amazon.com/images/I/61QfKSGnwEL._SL1200_.jpg'],
+  ['David Brooks', 'How to Know a Person', 'https://m.media-amazon.com/images/I/81Gvt3v-J3L._SL1500_.jpg'],
+  ['Lucey Foley', 'The Paris Apartment', 'https://m.media-amazon.com/images/I/81AqVcL4OML._SL1500_.jpg'],
+  ['Michio Kaku', 'Quantum Supremacy', 'https://m.media-amazon.com/images/I/71AoVEBXDfL._SL1500_.jpg'],
+  ['Lucey Foley', 'The Midnight Feast', 'https://m.media-amazon.com/images/I/81m973Wyr6L._SL1500_.jpg'],
+  ['Emma Straub', 'This Time Tomorrow', 'https://m.media-amazon.com/images/I/A1-p+FQ5ckL._SL1500_.jpg'],
+  ['Daniel Yergin', 'The New Map', 'https://m.media-amazon.com/images/I/81hWM6A7eYL._SL1500_.jpg'],
+  ['Carrie Sun', 'Private Equity', 'https://m.media-amazon.com/images/I/71ZbvU8tjDL._SL1500_.jpg'],
+  ['Clare Johnson', 'The Art of Lucid Dreaming', 'https://m.media-amazon.com/images/I/610cGVrKKGL._SL1000_.jpg'],
+  ['Haemin Sunim', 'The Things You Can Only See When You Slow Down', 'https://m.media-amazon.com/images/I/91Dmm+wEx4L._SL1500_.jpg'],
+  ['John Grisham', 'The Firm', 'https://m.media-amazon.com/images/I/91Ge-6fN0YL._SL1500_.jpg'],
   ['Cal Newport', 'Slow Productivity', 'https://m.media-amazon.com/images/I/91rxxzTG9bL._SL1500_.jpg'],
   ['Rebecca Yarros', 'Iron Flame', 'https://m.media-amazon.com/images/I/91vTsJScPSL._SL1500_.jpg'],
   ['Rebecca Yarros', 'Fourth Wing', 'https://m.media-amazon.com/images/I/914HWd0RxsL._SL1500_.jpg'],
@@ -18,7 +30,7 @@ const books = [
   ['Ted Chiang', 'Stories of Your Life and Others', 'https://m.media-amazon.com/images/I/71ZRRZShcGL._SL1200_.jpg'],
   ['Bill Perkins', 'Die with Zero', 'https://m.media-amazon.com/images/I/61+4EHZ4faL._SL1500_.jpg'],
   ['Mustafa Suleyman', 'The Coming Wave', 'https://m.media-amazon.com/images/I/81zQiMu4A5L._SL1500_.jpg'],
-  ['', '', 'https://via.placeholder.com/150x250.png?text=2024'],
+  ['', '', 'https://placehold.co/175x250?text=2024'],
 
   // 2023
   ['Matthew Ball', 'The Metaverse', 'https://m.media-amazon.com/images/I/61stJc6UJTL._SL1000_.jpg'],
@@ -78,7 +90,7 @@ const books = [
   ['Ray Dalio', 'Principles for Dealing with the Changing World Order', 'https://m.media-amazon.com/images/I/61R4llNQbkL._SL1500_.jpg'],
   ['Seth Rogen', 'Yearbook', 'https://m.media-amazon.com/images/I/71S6GYQZaOS._SL1500_.jpg'],
   ['David Epstein', 'Range', 'https://m.media-amazon.com/images/I/71bOyGacwbL._SL1500_.jpg'],
-  ['', '', 'https://via.placeholder.com/150x250.png?text=2023'],
+  ['', '', 'https://placehold.co/175x250?text=2023'],
 
   // 2022
   ['Michael A. Singer', 'The Untethered Soul', 'https://m.media-amazon.com/images/I/71URMFtAuQL._SL1500_.jpg'],
@@ -106,7 +118,7 @@ const books = [
   ['John Doerr', 'Measure What Matters', 'https://img1.od-cdn.com/ImageType-400/1523-1/9ED/EB4/E7/%7B9EDEB4E7-DAAA-46D6-9CB6-1509E3FB9481%7DImg400.jpg'],
   ['Ernest Cline', 'Ready Player Two', 'https://images-na.ssl-images-amazon.com/images/I/51YxdHStR9L._SX342_QL70_ML2_.jpg'],
   ['Ernest Cline', 'Ready Player One', 'https://www.thegeekgeneration.com/wp-content/uploads/2012/09/Ready-Player-One-book-cover.jpg'],
-  ['', '', 'https://via.placeholder.com/150x250.png?text=2022'],
+  ['', '', 'https://placehold.co/175x250?text=2022'],
 
   // 2021
   ['Ray Dalio', 'Principles', 'https://images-na.ssl-images-amazon.com/images/I/31TNlo2p%2BPL._SY291_BO1,204,203,200_QL40_.jpg'],
@@ -124,10 +136,10 @@ const books = [
   ['Jenny Odell', 'How to Do Nothing', 'https://assets.weforum.org/editor/U4MDC0xGM9tG67sEkkGWrSfAQkojVNj_X4bx-b0J0Os.jfif'],
   ['Frank Herbert', 'Dune', 'https://images-na.ssl-images-amazon.com/images/I/41%2B-pjts02L._SY346_.jpg'],
   ['Ted Koppel', 'Lights Out', 'https://cbsnews2.cbsistatic.com/hub/i/r/2015/10/31/31bb7b95-44f4-4f6f-a7b2-c85e3aae729d/thumbnail/620x940/129d694fcce014c67d52936440191eb6/lights-out-ted-koppel-cover-244.jpg'],
-  ['', '', 'https://via.placeholder.com/150x250.png?text=2021'],
+  ['', '', 'https://placehold.co/175x250?text=2021'],
 
   // 2020
-  ['Michael V. Hayden', 'The Assault on Intelligence', 'https://imgv2-2-f.scribdassets.com/img/word_document/377840590/original/f2cdf3b318/1590043338'],
+  ['Michael V. Hayden', 'The Assault on Intelligence', 'https://m.media-amazon.com/images/I/71qXj3WDj3L._SL1500_.jpg'],
   ['Robert O\'Harrow Jr.', 'Zero Day', 'https://m.media-amazon.com/images/I/81mEUS0yEGL._SL1350_.jpg'],
   ['Blake Crouch', 'Recursion', 'https://images-na.ssl-images-amazon.com/images/I/81DloslmZOL.jpg'],
   ['Maria Konnikova', 'The Biggest Bluff', 'https://m.media-amazon.com/images/I/41-jsI5OBsL.jpg'],
@@ -141,14 +153,14 @@ const books = [
   ['David Foster Wallace', 'A Supposedly Fun Thing I\'ll Never Do Again', 'https://images-na.ssl-images-amazon.com/images/I/51P8MZzESJL._SY291_BO1,204,203,200_QL40_.jpg'],
   ['Leigh Phillips and Michal Rozworski', 'People\'s Republic of Walmart', 'https://images-na.ssl-images-amazon.com/images/I/718sy5QgB6L.jpg'],
   ['Cal Newport', 'Deep Work', 'https://images-na.ssl-images-amazon.com/images/I/41W+SUER72L._SX333_BO1,204,203,200_.jpg'],
-  ['', '', 'https://via.placeholder.com/150x250.png?text=2020'],
+  ['', '', 'https://placehold.co/175x250?text=2020'],
 
   // 2019
   ['Bill Walsh', 'The Score Takes Care of Itself', 'https://images-na.ssl-images-amazon.com/images/I/51ms1t%2B21UL._AC_SY400_.jpg'],
   ['Oscar Wilde', 'The Importance of Being Earnest', 'https://prodimage.images-bn.com/pimages/9781250101662_p0_v3_s550x406.jpg'],
   ['Neal Stephenson', 'Snow Crash', 'https://i.insider.com/55ae79af371d2215008b83e5'],
   ['Jack London', 'The Call of the Wild', 'https://images-na.ssl-images-amazon.com/images/I/81+9w5nFMDL.jpg'],
-  ['', '', 'https://via.placeholder.com/150x250.png?text=2019'],
+  ['', '', 'https://placehold.co/175x250?text=2019'],
 
   // 2018
   ['Amy Poehler', 'Yes Please', 'https://images-na.ssl-images-amazon.com/images/I/51JeCzV8CoL.jpg'],
@@ -160,21 +172,21 @@ const books = [
   ['Christopher McDougall', 'Born to Run', 'http://ecx.images-amazon.com/images/I/5117MxRQidL._SY344_BO1,204,203,200_.jpg'],
   ['Alice Schroeder', 'The Snowball', 'https://images-na.ssl-images-amazon.com/images/I/81YQhK1UiSL.jpg'],
   ['Fred Lager', 'Ben and Jerry\'s: The Inside Scoop', 'http://ecx.images-amazon.com/images/I/51QhTSWPq7L._SY344_BO1,204,203,200_.jpg'],
-  ['', '', 'https://via.placeholder.com/150x250.png?text=2018'],
+  ['', '', 'https://placehold.co/175x250?text=2018'],
 
   // 2017
   ['Paulo Coehlo', 'The Alchemist', 'https://images-na.ssl-images-amazon.com/images/I/41ybG235TcL._SX329_BO1,204,203,200_.jpg'],
   ['Ashlee Vance', 'Elon Musk', 'https://images-na.ssl-images-amazon.com/images/I/5112YFsXIJL._SX330_BO1,204,203,200_.jpg'],
   ['Aziz Ansari', 'Modern Romance', 'https://images-na.ssl-images-amazon.com/images/I/81p047toiVL.jpg'],
   ['Michael Lewis', 'Flash Boys', 'https://images-na.ssl-images-amazon.com/images/I/41qc0wzpBRL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg'],
-  ['', '', 'https://via.placeholder.com/150x250.png?text=2017'],
+  ['', '', 'https://placehold.co/175x250?text=2017'],
 
   // 2016
   ['Dale Carnegie', 'How to Win Friends and Influence People', 'https://prodimage.images-bn.com/pimages/9780671027032_p0_v2_s1200x630.jpg'],
   ['Malcolm Gladwell', 'David and Goliath', 'https://images-na.ssl-images-amazon.com/images/I/41H9ZCmjenL.jpg'],
   ['Robert Louis Stevenson III', 'Torchlight', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427214506l/6966166.jpg'],
   ['John Le Carre', 'The Spy Who Came in from the Cold', 'https://i.ebayimg.com/images/g/XPQAAOSwTlBZ4JTc/s-l640.jpg'],
-  ['', '', 'https://via.placeholder.com/150x250.png?text=2016'],
+  ['', '', 'https://placehold.co/175x250?text=2016'],
 
   // 2015
   ['Benjamin Franklin', 'The Autobiography of Benjamin Franklin', 'https://images-na.ssl-images-amazon.com/images/I/51qI-RdE-8L._SX384_BO1,204,203,200_.jpg'],
@@ -186,7 +198,7 @@ const books = [
   ['Robert M. Pirsig', 'Zen and the Art of Motorcycle Maintenance', 'https://m.media-amazon.com/images/I/51y4OhDDi3L._SL350_.jpg'],
   ['James Gleick', 'The Information', 'https://images-na.ssl-images-amazon.com/images/I/510E4q8npXL._SX321_BO1,204,203,200_.jpg'],
   ['Ayn Rand', 'The Fountainhead', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388197152l/225221.jpg'],
-  ['', '', 'https://via.placeholder.com/150x250.png?text=2015'],
+  ['', '', 'https://placehold.co/175x250?text=2015'],
 
   // Senior
   ['Suzanne Collins', 'The Hunger Games 1', 'https://images-na.ssl-images-amazon.com/images/I/61JfGcL2ljL.jpg'],
@@ -223,7 +235,7 @@ const books = [
   // Senior
   ['Cormac McCarthy', 'The Road', 'https://images-na.ssl-images-amazon.com/images/I/51GJCBgMhhL._SY344_BO1,204,203,200_.jpg'],
   ['Milan Kundera', 'The Unbearable Lightness of Being', 'https://images-na.ssl-images-amazon.com/images/I/415nLlgdz8L._SX337_BO1,204,203,200_.jpg'],
-  ['Albert Camus', 'The Stranger', 'https://covers.openlibrary.org/b/id/8296476-L.jpg'],
+  ['Albert Camus', 'The Stranger', 'https://m.media-amazon.com/images/I/91159wwfTLL._SL1500_.jpg'],
 
   // Junior
   ['Alan Moore', 'Watchmen', 'https://images-na.ssl-images-amazon.com/images/I/41chVzBhJiL._SX317_BO1,204,203,200_.jpg'],
