@@ -1,5 +1,17 @@
 const books = [
+  // 2025
+  ['Rebecca Yarros', 'Onyx Storm', 'https://m.media-amazon.com/images/I/91rcGxdclIL._SL1500_.jpg'],
+  ['Pema Chodron', 'When Things Fall Apart', 'https://m.media-amazon.com/images/I/814x9YyN0LL._SL1500_.jpg'],
+  ['Matt Butcher, Matt Farina, and Josh Dolitsky', 'Learning Helm', 'https://m.media-amazon.com/images/I/81r5nqs-0HL._SL1500_.jpg'],
+  ['Brendan Burns, Joe Beda, Kelsey Hightower, and Lachlan Evenson', 'Kubernetes: Up and Running', 'https://m.media-amazon.com/images/I/81fH7yJ8rsL._SL1500_.jpg'],
+  ['Nigel Poulton', 'The Kubernetes Book 2nd Edition', 'https://m.media-amazon.com/images/I/61PLdQ-3MNL._SL1233_.jpg'],
+  ['John Mark Comer', 'The Ruthless Elimination of Hurry', 'https://m.media-amazon.com/images/I/61dSy7yxmEL._SL1500_.jpg'],
+  ['Nate Silver', 'On the Edge', 'https://m.media-amazon.com/images/I/71Bs5igxx6L._SL1500_.jpg'],
+  ['', '', 'https://placehold.co/175x250?text=2025'],
   // 2024
+  ['Brian Klaas', 'Fluke', 'https://m.media-amazon.com/images/I/61xNlE+jp9L._SL1500_.jpg'],
+  ['Mitch Albom', 'Tuesdays with Morrie', 'https://m.media-amazon.com/images/I/91JGbl7K1OL._SL1500_.jpg'],
+  ['Robert Waggoner and Caroline McCready', 'Lucid Dreaming', 'https://m.media-amazon.com/images/I/51sNkFx0JEL.jpg'],
   ['Tony Robbins', 'The Holy Grail of Investing', 'https://m.media-amazon.com/images/I/71YS9x+zMhL._SL1500_.jpg'],
   ['Greg McKeown', 'Essentialism', 'https://m.media-amazon.com/images/I/61QfKSGnwEL._SL1200_.jpg'],
   ['David Brooks', 'How to Know a Person', 'https://m.media-amazon.com/images/I/81Gvt3v-J3L._SL1500_.jpg'],
