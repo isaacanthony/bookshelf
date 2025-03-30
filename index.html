@@ -8,7 +8,7 @@
   <!-- css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
   <style>
-    .book-cover { height: 92%; width: 100%; }
+    .book-cover { cursor: pointer; height: 92%; width: 100%; }
   </style>
 </head>
 <body>
@@ -26,9 +26,17 @@
       <div class="row text-center books"></div>
     </div>
   </div>
+
+  <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <img class="book-cover modal-img">
+    </div>
+  </div>
 </div>
 
 <!-- js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script src="books.js"></script>
 <script>
 "use strict";
@@ -43,7 +51,7 @@ const display = (arr, reset) => {
 
   if (reset) {
     offset = 0;
-    document.querySelector('.books').innerHTML = '';
+    $('.books').empty();
   }
 
   if (offset >= arr.length) {
@@ -52,18 +60,18 @@ const display = (arr, reset) => {
 
   let endOffset = offset + limit;
   if (endOffset >= arr.length) {
-    endOffset = arr.length - 1;
+    endOffset = arr.length;
   }
 
   arr.slice(offset, endOffset).forEach((book) => {
     html.push(`
       <div class="col-md-2 col-4">
-        <img class="book-cover" alt="${book[0]} | ${book[1]}" src="${book[2]}">
+        <img class="book-cover" alt="${book[0]} | ${book[1]}" src="${book[2]}" onclick="modal('${book[2]}')">
       </div>
     `);
   });
 
-  document.querySelector('.books').innerHTML += html.join('');
+  $('.books').append(html.join(''));
 };
 
 
@@ -78,6 +86,12 @@ const search = (el) => {
         book[1].toLowerCase().includes(query.toLowerCase());
     }), true);
   }
+};
+
+
+const modal = (imgSrc) => {
+  $('.modal-img').attr('src', imgSrc);
+  $('.modal').modal();
 };
 
 
