@@ -34,10 +34,28 @@
 "use strict";
 
 
-const display = (arr) => {
+var offset = 0;
+const limit = 30;
+
+
+const display = (arr, reset) => {
   let html = [];
 
-  arr.forEach((book) => {
+  if (reset) {
+    offset = 0;
+    document.querySelector('.books').innerHTML = '';
+  }
+
+  if (offset >= arr.length) {
+    return
+  }
+
+  let endOffset = offset + limit;
+  if (endOffset >= arr.length) {
+    endOffset = arr.length - 1;
+  }
+
+  arr.slice(offset, endOffset).forEach((book) => {
     html.push(`
       <div class="col-md-2 col-4">
         <img class="book-cover" alt="${book[0]} | ${book[1]}" src="${book[2]}">
@@ -45,7 +63,7 @@ const display = (arr) => {
     `);
   });
 
-  document.querySelector('.books').innerHTML = html.join('');
+  document.querySelector('.books').innerHTML += html.join('');
 };
 
 
@@ -53,16 +71,24 @@ const search = (el) => {
   let query = el.value;
 
   if (!query) {
-    display(books);
+    display(books, true);
   } else {
     display(books.filter((book) => {
       return book[0].toLowerCase().includes(query.toLowerCase()) ||
         book[1].toLowerCase().includes(query.toLowerCase());
-    }));
+    }), true);
   }
 };
 
 
-display(books);
+window.addEventListener("scroll", () => {
+  if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight) {
+    offset += limit;
+    display(books, false);
+  }
+});
+
+
+display(books, true);
 </script>
 </body>

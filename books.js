@@ -8,6 +8,7 @@ const books = [
   ['John Mark Comer', 'The Ruthless Elimination of Hurry', 'https://m.media-amazon.com/images/I/61dSy7yxmEL._SL1500_.jpg'],
   ['Nate Silver', 'On the Edge', 'https://m.media-amazon.com/images/I/71Bs5igxx6L._SL1500_.jpg'],
   ['', '', 'https://placehold.co/175x250?text=2025'],
+
   // 2024
   ['Brian Klaas', 'Fluke', 'https://m.media-amazon.com/images/I/61xNlE+jp9L._SL1500_.jpg'],
   ['Mitch Albom', 'Tuesdays with Morrie', 'https://m.media-amazon.com/images/I/91JGbl7K1OL._SL1500_.jpg'],
