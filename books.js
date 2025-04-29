@@ -1,5 +1,8 @@
 const books = [
   // 2025
+  ['Lindsay Gibson', 'Adult Children of Emotionally Immature Parents', 'https://m.media-amazon.com/images/I/61U4ZvJ4vKL._SL1360_.jpg'],
+  ['Sarah Wynn-Williams', 'Careless People', 'https://m.media-amazon.com/images/I/61qV0ieP64L._SL1500_.jpg'],
+  ['Malcolm Gladwell', 'Revenge of the Tipping Point', 'https://m.media-amazon.com/images/I/61f9VKVop9L._SL1500_.jpg'],
   ['Rebecca Yarros', 'Onyx Storm', 'https://m.media-amazon.com/images/I/91rcGxdclIL._SL1500_.jpg'],
   ['Pema Chodron', 'When Things Fall Apart', 'https://m.media-amazon.com/images/I/814x9YyN0LL._SL1500_.jpg'],
   ['Matt Butcher, Matt Farina, and Josh Dolitsky', 'Learning Helm', 'https://m.media-amazon.com/images/I/81r5nqs-0HL._SL1500_.jpg'],
