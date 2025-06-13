@@ -1,5 +1,14 @@
 const books = [
   // 2025
+  ['Scott Nations', 'The Anxious Investor', 'https://m.media-amazon.com/images/I/71xdkA4nz-L._SL1500_.jpg'],
+  ['Parmy Olson', 'Supremacy', 'https://m.media-amazon.com/images/I/81FlYGkgrmL._SL1500_.jpg'],
+  ['Ezra Klein and Derek Thompson', 'Abundance', 'https://m.media-amazon.com/images/I/71ITohGrhZL._SL1500_.jpg'],
+  ['Brooke Harrington', 'Offshore', 'https://m.media-amazon.com/images/I/91oL6rGnUXL._SL1500_.jpg'],
+  ['Tae Kim', 'The Nvidia Way', 'https://m.media-amazon.com/images/I/91UPy6+RV3L._SL1500_.jpg'],
+  ['Paulo Coelho', 'Maktub', 'https://m.media-amazon.com/images/I/811+xBp-zAL._SL1500_.jpg'],
+  ['Thich Nhat Hanh', 'The Miracle of Mindfulness', 'https://m.media-amazon.com/images/I/51AACr+UbYL._SL1200_.jpg'],
+  ['Jennifer Lynn Barnes', 'The Inheritance Games', 'https://m.media-amazon.com/images/I/91ELakTxSZL._SL1500_.jpg'],
+  ['Nita Prose', 'The Maid', 'https://m.media-amazon.com/images/I/71YXeEf4QqL._SL1500_.jpg'],
   ['Lindsay Gibson', 'Adult Children of Emotionally Immature Parents', 'https://m.media-amazon.com/images/I/61U4ZvJ4vKL._SL1360_.jpg'],
   ['Sarah Wynn-Williams', 'Careless People', 'https://m.media-amazon.com/images/I/61qV0ieP64L._SL1500_.jpg'],
   ['Malcolm Gladwell', 'Revenge of the Tipping Point', 'https://m.media-amazon.com/images/I/61f9VKVop9L._SL1500_.jpg'],
