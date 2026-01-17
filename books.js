@@ -180,7 +180,7 @@ const books = [
   ['Jerry Seinfeld', 'Is This Anything?', 'https://img1.od-cdn.com/ImageType-400/5054-1/907/B16/F9/%7B907B16F9-D55C-45D9-BE36-18C136376158%7DImg400.jpg'],
   ['James Clear', 'Atomic Habits', 'https://img1.od-cdn.com/ImageType-400/1191-1/7AD/5ED/FA/%7B7AD5EDFA-C544-4B69-80A2-9356BB99E131%7DImg400.jpg'],
   ['Ted Chiang', 'Exhalation', 'https://images-na.ssl-images-amazon.com/images/I/41Ps2hLq7mL._SY346_.jpg'],
-  ['Neil deGrasse Tyson', 'Astrophysics for People in a Hurry', 'https://bloximages.chicago2.vip.townnews.com/emissourian.com/content/tncms/assets/v3/editorial/c/53/c53b520a-5127-11e7-9f79-cf936c315bdb/594173fbe5670.image.jpg'],
+  ['Neil deGrasse Tyson', 'Astrophysics for People in a Hurry', 'https://m.media-amazon.com/images/I/914EiU2QImL._SL1500_.jpg'],
   ['Isaac Asimov', 'Foundation', 'https://images-na.ssl-images-amazon.com/images/I/51NWJN5KHNL._SY346_.jpg'],
   ['Malcolm Gladwell', 'Talking to Strangers', 'https://images-na.ssl-images-amazon.com/images/I/418k0VVkWYL._SY346_.jpg'],
   ['Cathy O\'Neil', 'Weapons of Math Destruction', 'https://cdn2.penguin.com.au/covers/original/9780141985411.jpg'],
@@ -236,7 +236,7 @@ const books = [
   ['Dale Carnegie', 'How to Win Friends and Influence People', 'https://prodimage.images-bn.com/pimages/9780671027032_p0_v2_s1200x630.jpg'],
   ['Malcolm Gladwell', 'David and Goliath', 'https://images-na.ssl-images-amazon.com/images/I/41H9ZCmjenL.jpg'],
   ['Robert Louis Stevenson III', 'Torchlight', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427214506l/6966166.jpg'],
-  ['John Le Carre', 'The Spy Who Came in from the Cold', 'https://i.ebayimg.com/images/g/XPQAAOSwTlBZ4JTc/s-l640.jpg'],
+  ['John Le Carre', 'The Spy Who Came in from the Cold', 'https://m.media-amazon.com/images/I/81J0Z7nEOnL._SL1500_.jpg'],
   ['', '', 'https://placehold.co/175x250?text=2016'],
 
   // 2015
@@ -271,7 +271,7 @@ const books = [
   ['Benjamin Graham', 'The Intelligent Investor', 'https://images-na.ssl-images-amazon.com/images/I/91yj3mbz4JL.jpg'],
   ['Pamela Glintenkamp', 'Industrial Light and Magic', 'https://images-na.ssl-images-amazon.com/images/I/61oZYwPA5DL.jpg'],
   ['Cory Doctorow', 'Little Brother', 'https://images-na.ssl-images-amazon.com/images/I/41Yz41DiHvL._SX324_BO1,204,203,200_.jpg'],
-  ['Robert Ludlum', 'The Bourne Identity', 'https://i.ebayimg.com/images/g/~HEAAOSwTEteOzdB/s-l640.jpg'],
+  ['Robert Ludlum', 'The Bourne Identity', 'https://m.media-amazon.com/images/I/81yEz5Ol76L._SL1500_.jpg'],
   ['Orson Scott Card', 'Ender\'s Game', 'http://ecx.images-amazon.com/images/I/51BoBX-hsyL._SY344_BO1,204,203,200_.jpg'],
 
   // Freshman
@@ -315,7 +315,7 @@ const books = [
   ['Ben Mezrich', 'Bringing Down the House', 'https://m.media-amazon.com/images/I/51KvCgfEy4L.jpg'],
   ['Dan Brown', 'Angels and Demons', 'https://images-na.ssl-images-amazon.com/images/I/51GHld4-CZL._SX349_BO1,204,203,200_.jpg'],
   ['Dan Brown', 'Deception Point', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551277487l/976._SY475_.jpg'],
-  ['Dan Brown', 'Digital Fortress', 'https://danbrown.com/wp-content/themes/danbrown/images/db/covers/df.jpg'],
+  ['Dan Brown', 'Digital Fortress', 'https://m.media-amazon.com/images/I/71pMj56zHqL._SL1162_.jpg'],
   ['Dan Brown', 'The Da Vinci Code', 'https://vignette.wikia.nocookie.net/davincicode/images/6/6b/DaVinciCode.jpg/revision/latest/scale-to-width-down/340?cb=20081230190335'],
   ['Dan Brown', 'The Lost Symbol', 'https://images-na.ssl-images-amazon.com/images/I/91twDBBv7LL.jpg'],
   ['Dennis Lewis', 'The Tao of Natural Breathing', 'https://images-na.ssl-images-amazon.com/images/I/816ppi8Vd-L.jpg'],
@@ -391,12 +391,12 @@ const books = [
   ['Pearl S. Buck', 'The Good Earth', 'https://images-na.ssl-images-amazon.com/images/I/51zRzieodBL._SX320_BO1,204,203,200_.jpg'],
 
   // 7th
-  ['Elie Wiesel', 'Night', 'https://i.ebayimg.com/images/g/YMkAAOSwIjJZO~rP/s-l600.jpg'],
-  ['Ellen Raskin', 'The Westing Game', 'https://i.ebayimg.com/images/g/58gAAOSwDtVaozgI/s-l400.jpg'],
+  ['Elie Wiesel', 'Night', 'https://m.media-amazon.com/images/I/61el8SZ+yjL._SL1000_.jpg'],
+  ['Ellen Raskin', 'The Westing Game', 'https://m.media-amazon.com/images/I/51bTwNj-wqL._SL1000_.jpg'],
   ['Eoin Colfer', 'Artemis Fowl 3', 'https://pictures.abebooks.com/isbn/9780786856282-us.jpg'],
   ['Eoin Colfer', 'Artemis Fowl 2', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388294381l/114955.jpg'],
   ['Eoin Colfer', 'Artemis Fowl 1', 'https://upload.wikimedia.org/wikipedia/en/0/07/Artemis_Fowl_first_edition_cover.jpg'],
-  ['George Orwell', '1984', 'https://i.ebayimg.com/images/g/pq8AAOSwOZRfGfTY/s-l640.jpg'],
+  ['George Orwell', '1984', 'https://m.media-amazon.com/images/I/7180qjGSgDL._SL1360_.jpg'],
   ['Jon Krakauer', 'Into Thin Air', 'https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Into_Thin_Air.jpg/220px-Into_Thin_Air.jpg'],
   ['J.K. Rowling', 'Harry Potter 6', 'https://images-na.ssl-images-amazon.com/images/I/51uO1pQc5oL._SX329_BO1,204,203,200_.jpg'],
   ['J.K. Rowling', 'Harry Potter 5', 'https://prodimage.images-bn.com/pimages/9780439358071_p0_v4_s1200x630.jpg'],
@@ -410,7 +410,7 @@ const books = [
   ['Lois Lowry', 'Gathering Blue', 'https://upload.wikimedia.org/wikipedia/en/9/98/Lowry_gathering_blue_cover.jpg'],
   ['Lois Lowry', 'The Giver', 'https://images-na.ssl-images-amazon.com/images/I/51R8AA8QEVL.jpg'],
   ['Michael Chabon', 'Summerland', 'https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Chabon_summerland.jpg/220px-Chabon_summerland.jpg'],
-  ['Madeleine L\'Engle', 'A Wrinkle in Time', 'https://i.ebayimg.com/images/g/NOQAAOSwSlVeIAXG/s-l640.jpg'],
+  ['Madeleine L\'Engle', 'A Wrinkle in Time', 'https://m.media-amazon.com/images/I/81oqdz4hkeL._SL1500_.jpg'],
   ['Megan Whalen Turner', 'The Thief', 'https://pictures.abebooks.com/isbn/9780140388343-us-300.jpg'],
   ['Michael Cadnum', 'Forbidden Forest', 'https://images-na.ssl-images-amazon.com/images/I/51CHPBS1SCL._SX317_BO1,204,203,200_.jpg'],
   ['Roald Dahl', 'Charlie and the Great Glass Elevator', 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1190183083l/1910094.jpg'],
