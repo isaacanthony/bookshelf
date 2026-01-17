@@ -1,5 +1,20 @@
 const books = [
+  // 2026
+  ['Andrew Ross Sorkin', '1929', 'https://m.media-amazon.com/images/I/71ojtb1VxuL._SL1500_.jpg'],
+  ['Peter Thiel', 'Zero to One', 'https://m.media-amazon.com/images/I/51zGCdRQXOL._SL1200_.jpg'],
+  ['', '', 'https://placehold.co/175x250?text=2026'],
+
   // 2025
+  ['Martin J. Osborne', 'An Introduction to Game Theory', 'https://m.media-amazon.com/images/I/716ZxqW7n5L._SL1500_.jpg'],
+  ['Swami Rama', 'Science of Breath', 'https://m.media-amazon.com/images/I/61nA+STU-BL._SL1500_.jpg'],
+  ['Martha Wells', 'Rogue Protocol', 'https://m.media-amazon.com/images/I/81AmZLF3RhL._SL1500_.jpg'],
+  ['Martha Wells', 'Rapport', 'https://m.media-amazon.com/images/I/81RldHJCVvL._SL1500_.jpg'],
+  ['Martha Wells', 'Artificial Condition', 'https://m.media-amazon.com/images/I/81eP4T-BTwL._SL1500_.jpg'],
+  ['Dan Brown', 'Inferno', 'https://m.media-amazon.com/images/I/71yo0g5rs9L._SL1500_.jpg'],
+  ['Martha Wells', 'All Systems Red', 'https://m.media-amazon.com/images/I/81thdg0KmZL._SL1500_.jpg'],
+  ['Barry Ritholtz', 'How Not to Invest', 'https://m.media-amazon.com/images/I/71Mdkz+bflL._SL1500_.jpg'],
+  ['Karen Hao', 'Empire of AI', 'https://m.media-amazon.com/images/I/71PvG526YjL._SL1500_.jpg'],
+  ['Ruth Ware', 'The Woman in Cabin 10', 'https://m.media-amazon.com/images/I/813RMvUOlPL._SL1500_.jpg'],
   ['Jason Rekulak', 'The Last One at the Wedding', 'https://m.media-amazon.com/images/I/81gYaRuE2SL._SL1500_.jpg'],
   ['Robert Jackson Bennett', 'The Tainted Cup', 'https://m.media-amazon.com/images/I/918HFs91Z-L._SL1500_.jpg'],
   ['JL Collins', 'The Simple Path to Wealth', 'https://m.media-amazon.com/images/I/81DTZD2i93L._SL1500_.jpg'],
@@ -25,6 +40,9 @@ const books = [
   ['Malcolm Gladwell', 'Revenge of the Tipping Point', 'https://m.media-amazon.com/images/I/61f9VKVop9L._SL1500_.jpg'],
   ['Rebecca Yarros', 'Onyx Storm', 'https://m.media-amazon.com/images/I/91rcGxdclIL._SL1500_.jpg'],
   ['Pema Chodron', 'When Things Fall Apart', 'https://m.media-amazon.com/images/I/814x9YyN0LL._SL1500_.jpg'],
+  ['Matt Butcher, Matt Farina, and Josh Dolitsky', 'Learning Helm', 'https://m.media-amazon.com/images/I/81r5nqs-0HL._SL1500_.jpg'],
+  ['Brendan Burns, Joe Beda, Kelsey Hightower, and Lachlan Evenson', 'Kubernetes: Up and Running', 'https://m.media-amazon.com/images/I/81fH7yJ8rsL._SL1500_.jpg'],
+  ['Nigel Poulton', 'The Kubernetes Book 2nd Edition', 'https://m.media-amazon.com/images/I/61PLdQ-3MNL._SL1233_.jpg'],
   ['John Mark Comer', 'The Ruthless Elimination of Hurry', 'https://m.media-amazon.com/images/I/61dSy7yxmEL._SL1500_.jpg'],
   ['Nate Silver', 'On the Edge', 'https://m.media-amazon.com/images/I/71Bs5igxx6L._SL1500_.jpg'],
   ['', '', 'https://placehold.co/175x250?text=2025'],
