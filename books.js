@@ -1,5 +1,18 @@
 const books = [
   // 2026
+  ['Theo Baker', 'How to Rule the World', 'https://m.media-amazon.com/images/I/71opKSwWaeL._SL1500_.jpg'],
+  ['Britta Bushnell', 'Transformed by Birth', 'https://m.media-amazon.com/images/I/81KXn-9RFdL._SL1500_.jpg'],
+  ['Penny Simkin and Melissa Cheyney', 'The Birth Partner', 'https://m.media-amazon.com/images/I/81hxdDaSB2L._SL1500_.jpg'],
+  ['Yves Hilpisch', 'Reinforcement Learning for Finance', 'https://m.media-amazon.com/images/I/71GYVRRw8qL._SL1500_.jpg'],
+  ['Alice Feeney', 'Daisy Darker', 'https://m.media-amazon.com/images/I/91th3OGV3yL._SL1500_.jpg'],
+  ['Sebastian Mallaby', 'The Infinity Machine', 'https://m.media-amazon.com/images/I/91nZiBJWZJL._SL1500_.jpg'],
+  ['Lucey Foley', 'The Hunting Party', 'https://m.media-amazon.com/images/I/81hw47B7dhL._SL1500_.jpg'],
+  ['Robert Hilland and John Edward', 'Chasing Evil', 'https://m.media-amazon.com/images/I/81CzOYPxFDL._SL1500_.jpg'],
+  ['Ruth Ware', 'One by One', 'https://m.media-amazon.com/images/I/81FQPmtFlcL._SL1500_.jpg'],
+  ['Neal Bascomb', 'The Winter Fortress', 'https://m.media-amazon.com/images/I/81AlDDGEfoL._SL1500_.jpg'],
+  ['Oliver Burkeman', 'Meditations for Mortals', 'https://m.media-amazon.com/images/I/71xNBUbxbQL._SL1500_.jpg'],
+  ['W. Chan Kim and Renee Mauborgne', 'Blue Ocean Strategy', 'https://m.media-amazon.com/images/I/91YCWH4jFdL._SL1500_.jpg'],
+  ['Robert Louis Stevenson', 'The Strange Case of Dr. Jekyll and Mr. Hyde', 'https://m.media-amazon.com/images/I/41QAkrCt7FL.jpg'],
   ['Andrew Ross Sorkin', '1929', 'https://m.media-amazon.com/images/I/71ojtb1VxuL._SL1500_.jpg'],
   ['Peter Thiel', 'Zero to One', 'https://m.media-amazon.com/images/I/51zGCdRQXOL._SL1200_.jpg'],
   ['', '', 'https://placehold.co/175x250?text=2026'],
